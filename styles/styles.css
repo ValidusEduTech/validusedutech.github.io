@@ -1,0 +1,1428 @@
+/*------------- whole website------------- */
+body{
+    background-color:#112121;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 2rem;
+}
+a{
+    color: white;
+    
+}
+.readMore{
+    color: white;
+}
+a:hover {
+    color: #6ED190;
+  }
+/*------------ canvas for main page------------- */
+#canvas1 {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #112121;
+  
+  }
+  
+/* to display on large screen */
+@media only screen and (min-width: 600px) {
+    /*---------------- navigation bar ---------------*/
+    .navbar{
+         background-color: #112121;/*#1F1F1F; */
+        color: white;
+
+    }
+    .navbar-brand{
+        font-size: 30px;
+        padding-left: 125px;
+        font-weight: 100;
+        padding-top: 10px;
+        
+    }
+    .tagLine{
+        font-size: 20px;
+    }
+    .nav-link{
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+     }
+     .item-pink{
+         color: #6ED190;
+        
+     }
+     .dropdown-menu{
+        background-color: #112121;
+        color: #6ED190;
+     }
+     /* ------------------home---------------  */
+      .home{
+         color: white;
+         border-radius: 20px;
+         background-color: #112121;
+         justify-content: center;
+         
+         } 
+         .homeRow{
+            position: absolute;
+            margin: 7% 20%;
+            
+         }
+        
+        .homeCol{
+            background-color: #112121;
+            justify-content: center;
+        }
+        .homeLanding{
+            font-size: 50px;
+            font-weight: 100;
+            line-height: 4rem;
+            text-align: center;
+            padding: 20px  ;
+            background-color: #0E2926;
+            border-radius: 20px;
+            
+        }
+        .homeButton{
+            font-size: 20px ;
+            padding-left: 80px;
+            padding-right: 80px;
+            background-color: #6ED190;
+            color: #112121;
+            border-radius: 20px;
+            font-weight: 500;
+            border-color: #6ED190;
+        }
+        .homeButtonHover{
+            font-size: 20px ;
+            padding-left: 80px;
+            padding-right: 80px;
+            color: #112121;
+            border-radius: 20px;
+            background-color: #F6AF65;
+            font-weight: 500;
+            border-color: #F6AF65;
+            
+        }
+        .attendSessionHref{
+            color: #0E2926;
+            text-decoration: none;
+        }
+        .attendSessionHref:hover{
+            color: #112121;
+        }
+    /*------------------ about ------------------ */
+    .about{
+        margin: 5% 15% 10% 10%;
+        color: white;
+        
+    }
+    .aboutHeading{
+        font-size: 37px;
+        font-weight: 400;
+        color: #AAC9B0;
+        line-height: 2rem;
+    }
+
+    .aboutInfo{
+        font-size: 17px;
+        font-weight: 400;
+        color: white;
+        line-height: 2rem;
+
+    }
+    .aboutRow{
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+    }
+    .aboutBody{
+        
+        color: #1F1F1F;
+    }
+    .aboutCol{
+        align-content: center;
+    }
+
+    .aboutImg{
+        border-radius: 20px;
+        width: 300px;
+        
+    }
+    .aboutHeadRow{
+        border-bottom: solid 1px #113E39;
+    }
+    .aboutGoalCol{
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #1D4541;
+        
+    }
+    .aboutGoalColhover{
+        padding: 20px;
+        background-color: #F6AF65;
+        border-radius: 20px;
+        color: #112121;
+        
+    }
+    /*----------------------- philosophy --------------------*/
+    .philosophy{
+        margin: 5% 15% 10% 10%;
+
+    }
+    .philosophyHeading{
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .philosophyBrand{
+        font-size:50px ;
+        
+    }
+    .philosophyNum{
+        color: #F6AF65;
+        font-weight: 600;
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .philosophyHead{
+        line-break: strict;
+        color: #D9E8DD;
+        font-weight: 600;
+    }
+    .philosophyContent{
+        font-size: 15px;
+        color: #ACCBB2;
+        font-weight: 400;
+    }
+    .philosophyCol{
+        padding: 50px;
+    }
+    /* -------------------- showcase --------------------------*/
+    .showcase{
+        background-image: url(/images/sectionProgramBg.svg);
+        background-size: cover;
+        color: #112121;
+        padding: 5% 15% 10% 10%;
+    }
+    .showcaseHeading{
+        color: #155B53;
+        font-size: 50px;
+        line-height: 3rem;
+        font-weight: 600; 
+        padding: 60px;
+        text-align: center;
+       padding-top: 80px;
+    }
+    .showcaseGreen{
+        background-color:#BBE6C3 ;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+        
+    }
+    .showcaseBlue{
+        background-color:#C0E7DF;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+    }
+    .showcaseOrange{
+        background-color:#EFD9B4 ;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+    }
+    .showcaseYellow{
+        background-color:#E2E7C0 ;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+    }
+    .showcaseNum{
+        color: #155B53;
+        font-size: 40px;
+        font-weight: 600;
+        border-bottom: solid #B0DABC 2px ;
+    }
+    .showcaseContent{
+        font-size: 18px;
+        
+    }
+    .showcaseRow{
+        padding-bottom: 10px;
+    }
+    /* --------------------- handsOnExperience ------------------*/
+    .handsOnExperience{
+        margin: 5% 15% 10% 10%;
+    }
+    
+    .handsOnExperienceHeading{
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 3rem;
+        padding: 60px;
+    }
+    .handsOnExperienceHead{
+        font-size:25px ;
+        font-weight: 500;
+        color: #D9E8DD;
+        padding: 20px;
+        
+    }
+    .handsOnExperienceCol{
+        padding: 20px;
+    }
+    .handsOnExperienceContent{
+        font-size: 15px;
+        font-weight: 400;
+        color: #ACCBB2;
+        
+    }
+    .handsOnExperienceOrange{
+        background-color:#F6AF65 ;
+        border-radius: 20px;
+        padding: 40px;
+    }
+    /* -------------plan------------------------------------ */
+    .plan{
+        background-image: url(/images/planBg.svg);
+        padding: 5% 15% 10% 10%;
+    }
+    .planHeading{
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 3rem;
+        padding-bottom: 10px;
+    }
+    .planHead{
+        font-size:25px ;
+        font-weight: 500;
+        color: #D9E8DD;
+        padding: 20px;
+        padding-top: 70px;
+    }
+    .foundationSeries1Unit{
+        border-bottom: solid #F6AF65 2px;
+        
+    }
+    .foundationSeries1Month{
+        border-bottom: solid #346851 1px;
+        
+    }
+    .foundationSeries1Content{
+        border-bottom: solid #346851 1px;
+        
+    }
+    
+    .foundationSeries1TH{
+        color: #F6AF65;
+        padding: 10px;
+        text-align: left;
+        border-right: solid #346851 1px;
+    }
+    .foundationSeries1Td{
+        padding: 10px;
+        text-align: left;
+        border-right: solid #346851 1px;
+    }
+    .foundationSeries1THEnd{
+        color: #F6AF65;
+        padding: 10px;
+        text-align: left;
+    }
+    .foundationSeries1TdEnd{
+        padding: 10px;
+        text-align: left;
+    }
+    .foundationSeries1{
+        background-color: #113E39;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .programRow{
+        padding-top: 30px;
+    }
+    
+   
+    /* ---------------------admissions--------------------- */
+    .admission{
+        margin: 5% 15% 10% 10%;
+    }
+    .admissionCol{
+        justify-content: center;
+    }
+    .admissionBold{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 2.5rem;
+        color: #E4F3E7;
+    }
+    .admissionLight{
+        font-size: 18px;
+        font-weight: 400;
+        color: #ACCBB2;
+    }
+    /* ----------------------eligibility------------------ */
+    .eligibility{
+        margin: 5% 15% 10% 10%;
+    }
+    .eligibilityCard1{
+        background-color: #1E4A45;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 10px ;
+        text-align: center;
+        
+    }
+    .eligibilityCard2{
+        background-color: #1E4A45;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 10px ;
+        text-align: center;
+        
+    }
+    .eligibilityCardHover{
+        background-color: #F6AF65;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 10px ;
+        text-align: center;
+        color: #112121;
+        
+    }
+    .eligibilityHead{ 
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: center;
+    }
+    .eligibilityImg{
+        width: 50px;
+        margin: 30px 20px 60px 20px;
+    }
+    .eligibilityContent{
+        font-weight: 500;
+        font-size: 15px;
+        
+        
+    }
+    .eligibilityHeading{
+        
+        font-size: 50px;
+        line-height: 3.5rem;
+        font-weight: 600; 
+        
+        
+    }
+    /* -----------------------key admission section----------------- */
+
+    .keyAdmission{
+        margin: 5% 15% 10% 10%;
+    }
+    .keyAdmissionHeading{
+        font-size: 50px;
+        line-height: 3rem;
+        font-weight: 600; 
+        padding-bottom: 60px;
+        
+    }
+    .keyAdmissionCard1{
+        background-color: #1E4A45;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 20px 40px;
+        text-align: center;
+        
+    }
+    .keyAdmissionCard2{
+        background-color: #1E4A45;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 20px 40px;
+        text-align: center;
+        
+    }
+    .keyAdmissionCard3{
+        background-color: #1E4A45;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 20px 40px;
+        text-align: center;
+        
+    }
+    .keyAdmissionCardHover{
+        background-color: #F6AF65;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 20px 40px;
+        text-align: center;
+        color: #112121;
+    }
+    .keyAdmissionHead{
+        font-size: 25px;
+        font-weight: 600; 
+        
+    }
+    .keyAdmissionContent{
+       
+        font-size: 15px;
+    }
+    /* --------------------- admisiion process -------------- */
+    .admissionProcess{
+        background-image: url(/images/admissionProcessBg.svg);
+        padding : 5% 15% 10% 10%;
+        
+    }
+    .admissionProcessHeading{
+        font-size: 50px;
+        line-height: 3rem;
+        font-weight: 600; 
+        padding-bottom: 60px;
+    }
+    .admissionProcessCol{
+        background-color: #194743;
+        border-radius: 20px;
+        padding:  40px;
+    }
+    .admissionProcessNum{
+        background-color: #F6AF65;
+        color: #0E2926;
+        border-radius: 20px;
+        text-align: center;
+        padding: 5px;       
+    }
+    .admissionProcessNumCol{
+        padding-bottom: 30px;
+    }
+    .admissionProcessHead{
+        font-size: 20px;
+        font-weight: 600; 
+        color: #E4F3E7;
+    }
+    .admissionProcessContent{
+        color: #AAC9B0;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .admissionProcessHr{
+        color: #6ED190;
+        
+    }
+    /*----------------------- tools ----------------------- */
+    .toolsBody{
+        background-color: #EDEAEB;
+        color: #1F1F1F;
+        
+        
+        
+    }
+    .tools{
+        margin: 5% 15% 0 15%;
+    }
+    .toolRow{
+        padding-bottom: 100px;
+        
+    }
+    .toolHead{
+        color: #6ED190;
+        font-weight: 400;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .sourceTools{
+        color: #6ED190;
+    }
+    /* --------------------- blogs ----------------- */
+    .blogs{
+        margin: 5% 10%;
+    }
+    .blogImg{
+        border-radius: 20px;
+        width: 100px;
+        padding-right: 40px;
+    }
+    .blogRow{
+        margin: 40px 0 ;
+        border-bottom: solid #6ED190 1px;
+    }
+    .blogHeading{
+        padding-bottom: 50px;
+        border-bottom: solid #6ED190 1px;
+        font-size: 37px;
+        font-weight: 400;
+        color: #6ED190;
+        line-height: 2rem;
+    }
+    /* ----------------- footer ------------------- */
+    .footer{
+        background-color: #0E2926;
+        text-align: center;
+        color: #EDEAEB;
+        font-weight: 100;
+        line-height: 2rem;
+        padding: 20px;
+    }
+    .tagLineFooter{
+        font-size: 15px;
+    }
+    .brandFooter{
+        font-size: 24px;
+    }
+    .privacyPolicy{
+        color: #EDEAEB;
+    }
+    /* ----------------------student katta ------------*/
+    /* ---------------------theme------------- */
+    .kattaTheme{
+        padding: 5% 15% 10% 10%;
+         
+    }
+    .kattaThemeHead{
+        font-size:50px ;
+        font-weight: 600;
+        color: #D9E8DD;
+        line-height: 3rem;
+    }
+    .kattaThemeContent{
+        font-size: 18px;
+        font-weight: 400;
+        color: #ACCBB2;
+        padding: 20px;
+    }
+    .kattaThemeCol{
+        padding: 20px;
+       
+    }
+    .edges{
+        background-image: url(/images/edgeBg.svg);
+        background-size: cover;
+        color: #112121;
+        padding: 5% 15% 10% 10%;
+    }
+    .kattaEdgesHeading{
+        color: #155B53;
+        font-size: 50px;
+        line-height: 3rem;
+        font-weight: 600; 
+        padding-bottom: 60px;
+        text-align: left;
+       
+    }
+    .kattaEdgesHead{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+        
+       
+    }
+    .kattaEdgesContent{
+        color: #0E2926;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    /* ------------------------events ------------------*/
+    .event{
+        background-image: url(/images/edgeBg.svg);
+        background-size: cover;
+        padding: 5% 15% 10% 10%;
+        color: #112121;
+    }
+    .event_Heading{
+        color: #155B53;
+        font-size: 50px;
+        font-weight: 600; 
+        padding-bottom: 40px;  
+    }
+    .eventYellow{
+        background-color:#E2E7C0 ;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: left;
+    }
+    .eventBlue{
+        background-color:#C0E7DF;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: left;
+    }
+    .join{
+        padding: 5% 15% 10% 10%; 
+    }
+    .joinHeading{
+        color: #AAC9B0;
+        font-size: 40px;
+        font-weight: 600; 
+        padding-bottom: 20px; 
+        line-height: 3rem;
+        text-align: left;
+    }
+    .joinTable{
+        background-color: #1E4A45;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+        
+    }
+    .joinInput{
+        text-align: center;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    /*------------------- activities----------------- */
+    .activitiesInfo{
+        padding: 0 250px 5px 250px;
+    }
+    .activitiesInfoImg{
+        height: 600px;
+        
+    }
+    /* ----------------------------------------------------- */
+    .presentation{
+        background-color: #ACCBB2;
+        color: #0E2926;
+        padding: 5% 15% 2% 10%;
+    }
+    .presentationHead{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+    }
+    .presentationCol{
+        background-color: #E2E7C0;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .gd{
+        background-color: #ACCBB2;
+        color: #0E2926;
+        padding: 0 15% 10% 10%;
+    }
+    .gdHead{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+    }
+    .gdCol{
+        background-color: #EFD9B4;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+/* -------------------------contact---------------- */
+    .contact{
+        margin: 5% 25% 10% 35%; 
+        
+    }
+    
+    .contactTable{
+        background-color: #113E39;
+        border-radius: 20px;
+        padding: 30px;
+    }
+    .contactInput{
+        border-radius: 10px;
+        margin: 10px 20px;
+        padding: 0 130px ;
+    }
+    .contactButton{
+        padding: 0 200px ;
+        background-color: #6ED190;
+        color: #112121;
+    }
+    
+}
+
+  /* to display on small screen  */
+@media only screen and (max-width: 600px) {
+    /* --------------footer -----------------*/
+    .footer{
+        background-color: #112121;
+        text-align: center;
+        color: #EDEAEB;
+        font-weight: 100;
+        line-height: 1.5rem;
+        padding: 15px;
+        font-size: 10px;
+        
+    }
+    .tagLineFooter{
+        font-size: 10px;
+    }
+    .brandFooter{
+        font-size:20px ;
+    }
+    
+    .navbar{
+        background-color: #112121;/*#1F1F1F; */
+       color: white;
+
+   }
+   .navbar-brand{
+       font-size: 30px;
+       padding-left: 125px;
+       font-weight: 100;
+       padding-top: 10px;
+       
+   }
+   .nav-link{
+       padding: 10px;
+       font-size: 20px;
+       color: white;
+    }
+    .item-pink{
+        color: #6ED190;
+       
+    }
+    .dropdown-menu{
+       background-color: #112121;
+       color: #6ED190;
+    }
+    .tagLine{
+        font-size: 20px;
+        text-align: center;
+    }
+    /* ------------------home---------------  */
+     .home{
+        color: white;
+        border-radius: 20px;
+        background-color: #112121;
+        justify-content: center;
+        
+        } 
+        .homeRow{
+           position: absolute;
+           margin: 10% 20%;
+           
+        }
+       
+       .homeCol{
+           background-color: #112121;
+           justify-content: center;
+       }
+       .homeLanding{
+           font-size: 20px;
+           font-weight: 100;
+           line-height: 2rem;
+           text-align: center;
+           padding: 15px  ;
+           background-color: #0E2926;
+           border-radius: 20px;
+           
+       }
+       .homeButton{
+           font-size: 13px ;
+           padding-left: 10px;
+           padding-right: 10px;
+           background-color: #6ED190;
+           color: #112121;
+           border-radius: 10px;
+           font-weight: 500;
+           border-color: #6ED190;
+       }
+       .homeButtonHover{
+        font-size: 13px ;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #F6AF65;
+        color: #112121;
+        border-radius: 10px;
+        font-weight: 500;
+        border-color: #F6AF65;
+           
+       }
+       .attendSessionHref{
+           color: #0E2926;
+           text-decoration: none;
+       }
+       .attendSessionHref:hover{
+           color: #112121;
+       }
+   /*------------------ about ------------------ */
+   .about{
+       margin: 5% 15% 0 10%;
+       color: white;
+       
+   }
+   .aboutHeading{
+       font-size: 27px;
+       font-weight: 400;
+       color: #AAC9B0;
+       line-height: 2rem;
+   }
+
+   .aboutInfo{
+       font-size: 15px;
+       font-weight: 400;
+       color: white;
+       line-height: 2rem;
+
+   }
+   .aboutRow{
+       padding-bottom: 40px;
+       margin-bottom: 40px;
+   }
+   .aboutBody{
+       
+       color: #1F1F1F;
+   }
+   .aboutCol{
+       align-content: center;
+   }
+
+   .aboutImg{
+       border-radius: 20px;
+       width: 200px;
+       
+   }
+   .aboutHeadRow{
+       border-bottom: solid 1px #113E39;
+   }
+   .aboutGoalCol{
+       padding: 15px;
+       margin-bottom: 15px;
+       border-radius: 20px;
+       background-color: #1D4541;
+       font-size: 15px;
+       
+   }
+   .aboutGoalColhover{
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background-color: #F6AF65;
+    color: #112121;
+    font-size: 15px;
+       
+   }
+   /*----------------------- philosophy --------------------*/
+   .philosophy{
+    margin: 5% 15% 10% 10%;
+
+}
+.philosophyHeading{
+    font-size: 25px;
+    font-weight: 300;
+}
+.philosophyBrand{
+    font-size:35px ;
+    
+}
+.philosophyNum{
+    color: #F6AF65;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.philosophyHead{
+    line-break: strict;
+    color: #D9E8DD;
+    font-weight: 600;
+}
+.philosophyContent{
+    font-size: 15px;
+    color: #ACCBB2;
+    font-weight: 400;
+}
+.philosophyCol{
+    padding: 50px;
+}
+/* -------------------- showcase --------------------------*/
+.showcase{
+    background-image: url(/images/sectionProgramBg.svg);
+    background-size: cover;
+    color: #112121;
+    padding: 5% 15% 10% 10%;
+}
+.showcaseHeading{
+    color: #155B53;
+    font-size: 35px;
+    line-height: 2rem;
+    font-weight: 600; 
+    padding: 60px;
+    text-align: center;
+   padding-top: 80px;
+}
+.showcaseGreen{
+    background-color:#BBE6C3 ;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    
+    
+}
+.showcaseBlue{
+    background-color:#C0E7DF;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.showcaseOrange{
+    background-color:#EFD9B4 ;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.showcaseYellow{
+    background-color:#E2E7C0 ;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.showcaseNum{
+    color: #155B53;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: solid #B0DABC 2px ;
+}
+.showcaseContent{
+    font-size: 15px;
+    
+}
+.showcaseRow{
+    padding-bottom: 10px;
+    
+}
+.showcaseCol{
+    margin-bottom: 20px;
+}
+/* --------------------- handsOnExperience ------------------*/
+.handsOnExperience{
+    margin: 5% 15% 10% 10%;
+}
+
+.handsOnExperienceHeading{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 2.5rem;
+    padding: 60px;
+}
+.handsOnExperienceHead{
+    font-size:25px ;
+    font-weight: 500;
+    color: #D9E8DD;
+    padding: 20px;
+    
+}
+.handsOnExperienceCol{
+    padding: 20px;
+}
+.handsOnExperienceContent{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ACCBB2;
+    
+}
+.handsOnExperienceOrange{
+    background-color:#F6AF65 ;
+    border-radius: 20px;
+    padding: 40px;
+}
+/* -------------plan------------------------------------ */
+.plan{
+    background-image: url(/images/planBg.svg);
+    padding: 5% 15% 10% 10%;
+}
+.planHeading{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 3rem;
+    padding-bottom: 10px;
+}
+.planHead{
+    font-size:25px ;
+    font-weight: 500;
+    color: #D9E8DD;
+    padding: 20px;
+    padding-top: 70px;
+}
+.foundationSeries1Unit{
+    border-bottom: solid #F6AF65 2px;
+    
+}
+.foundationSeries1Month{
+    border-bottom: solid #346851 1px;
+    
+}
+.foundationSeries1Content{
+    border-bottom: solid #346851 1px;
+    
+}
+
+.foundationSeries1TH{
+    color: #F6AF65;
+    padding: 10px;
+    text-align: left;
+    border-right: solid #346851 1px;
+}
+.foundationSeries1Td{
+    padding: 10px;
+    text-align: left;
+    border-right: solid #346851 1px;
+}
+.foundationSeries1THEnd{
+    color: #F6AF65;
+    padding: 10px;
+    text-align: left;
+}
+.foundationSeries1TdEnd{
+    padding: 10px;
+    text-align: left;
+}
+.foundationSeries1{
+    background-color: #113E39;
+    border-radius: 20px;
+    padding: 20px;
+}
+.programRow{
+    padding-top: 30px;
+}
+/* ---------------------admissions--------------------- */
+.admission{
+    margin: 5% 15% 10% 10%;
+}
+.admissionCol{
+    justify-content: center;
+}
+.admissionBold{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #E4F3E7;
+}
+.admissionLight{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ACCBB2;
+}
+.admissionImg{
+    opacity: 0;
+}
+/* ----------------------eligibility------------------ */
+.eligibility{
+    margin: 5% 15% 10% 10%;
+}
+.eligibilityCard1{
+    background-color: #1E4A45;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px ;
+    text-align: center;
+    
+}
+.eligibilityCard2{
+    background-color: #1E4A45;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px ;
+    text-align: center;
+    
+}
+.eligibilityCardHover{
+    background-color: #F6AF65;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px ;
+    text-align: center;
+    color: #112121;
+    
+}
+.eligibilityHead{ 
+    font-size: 25px;
+    line-height: 3rem;
+    font-weight: 500; 
+    text-align: center;
+}
+.eligibilityImg{
+    width: 50px;
+    margin: 30px 20px 60px 20px;
+}
+.eligibilityContent{
+    font-weight: 500;
+    font-size: 15px;
+    
+    
+}
+.eligibilityHeading{
+    
+    font-size: 35px;
+    line-height: 3.5rem;
+    font-weight: 600; 
+    
+    
+}
+/* -----------------------key admission section----------------- */
+
+.keyAdmission{
+    margin: 5% 15% 10% 10%;
+}
+.keyAdmissionHeading{
+    font-size: 35px;
+    line-height: 2.5rem;
+    font-weight: 600; 
+    padding-bottom: 60px;
+    
+}
+.keyAdmissionCard1{
+    background-color: #1E4A45;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    
+}
+.keyAdmissionCard2{
+    background-color: #1E4A45;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    
+}
+.keyAdmissionCard3{
+    background-color: #1E4A45;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    
+}
+.keyAdmissionCardHover{
+    background-color: #F6AF65;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    color: #112121;
+}
+.keyAdmissionHead{
+    font-size: 25px;
+    font-weight: 600; 
+    
+}
+.keyAdmissionContent{
+   
+    font-size: 15px;
+}
+/* --------------------- admisiion process -------------- */
+.admissionProcess{
+    background-image: url(/images/admissionProcessBg.svg);
+    padding : 5% 15% 10% 10%;
+    
+}
+.admissionProcessHeading{
+    font-size: 35px;
+    line-height: 3rem;
+    font-weight: 600; 
+    padding-bottom: 60px;
+}
+.admissionProcessCol{
+    background-color: #194743;
+    border-radius: 20px;
+    padding:  40px;
+    margin-bottom: 10px;
+}
+.admissionProcessNum{
+    background-color: #F6AF65;
+    color: #0E2926;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;       
+}
+.admissionProcessNumCol{
+    padding-bottom: 30px;
+    
+}
+.admissionProcessHead{
+    font-size: 20px;
+    font-weight: 600; 
+    color: #E4F3E7;
+}
+.admissionProcessContent{
+    color: #AAC9B0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.admissionProcessHr{
+    color: #6ED190;
+    
+}
+/* ----------------------student katta ------------*/
+    /* ---------------------theme------------- */
+    .kattaTheme{
+        padding: 5% 15% 10% 10%;
+         
+    }
+    .kattaThemeHead{
+        font-size:35px ;
+        font-weight: 600;
+        color: #D9E8DD;
+        line-height: 3rem;
+    }
+    .kattaThemeContent{
+        font-size: 15px;
+        font-weight: 400;
+        color: #ACCBB2;
+        padding: 20px;
+    }
+    .kattaThemeCol{
+        padding-bottom: 20px;
+       
+    }
+    .edges{
+        background-image: url(/images/edgeBg.svg);
+        background-size: cover;
+        color: #112121;
+        padding: 5% 15% 10% 10%;
+    }
+    .kattaEdgesHeading{
+        color: #155B53;
+        font-size: 35px;
+        line-height: 2.5rem;
+        font-weight: 600; 
+        padding-bottom: 60px;
+        text-align: left;
+       
+    }
+    .kattaEdgesHead{
+        color: #155B53;
+        font-size: 20px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+        
+       
+    }
+    .kattaEdgesContent{
+        color: #0E2926;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    /* ------------------------events ------------------*/
+    .event{
+        background-image: url(/images/edgeBg.svg);
+        background-size: cover;
+        padding: 5% 15% 10% 10%;
+        color: #112121;
+    }
+    .event_Heading{
+        color: #155B53;
+        font-size: 35px;
+        font-weight: 600; 
+        padding-bottom: 40px;  
+        line-height: 2.5rem;
+    }
+    .eventYellow{
+        background-color:#E2E7C0 ;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .eventBlue{
+        background-color:#C0E7DF;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: left;
+    }
+    .join{
+        padding: 5% 15% 10% 10%; 
+    }
+    .joinHeading{
+        color: #AAC9B0;
+        font-size: 35px;
+        font-weight: 600; 
+        padding-bottom: 20px; 
+        line-height: 3rem;
+        text-align: left;
+    }
+    .joinTable{
+        background-color: #1E4A45;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+        
+    }
+    .joinInput{
+        text-align: center;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    /*------------------- activities----------------- */
+    .activitiesInfo{
+        
+        margin-bottom: 100px;
+    }
+    .activitiesInfoImg{
+       height: 500px;
+        
+    }
+    /* ----------------------------------------------------- */
+    .presentation{
+        background-color: #ACCBB2;
+        color: #0E2926;
+        padding: 5% 15% 2% 10%;
+    }
+    .presentationHead{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+    }
+    .presentationCol{
+        background-color: #E2E7C0;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .gd{
+        background-color: #ACCBB2;
+        color: #0E2926;
+        padding: 0 15% 10% 10%;
+    }
+    .gdHead{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+    }
+    .gdCol{
+        background-color: #EFD9B4;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+/* -------------------------contact---------------- */
+    .contact{
+        margin: 5% 25% 10% 35%; 
+        
+    }
+    
+    .contactTable{
+        background-color: #113E39;
+        border-radius: 20px;
+        padding: 30px;
+    }
+    .contactInput{
+        border-radius: 10px;
+        margin: 10px 20px;
+        padding: 0 130px ;
+    }
+    .contactButton{
+        padding: 0 200px ;
+        background-color: #6ED190;
+        color: #112121;
+    }
+    
+}
+  

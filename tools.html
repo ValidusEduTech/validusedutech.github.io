@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validus EduTech </title>
+  <!-- link for the bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--link for bootstrap version 5.3-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!--link for css-->
+  <link rel="stylesheet" href="/styles/styles.css">
+  <!--link for fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+<!-- link for gojs -->
+<script src="https://unpkg.com/gojs/release/go-debug.js"></script>
+</head>
+<body>
+    
+    <!-- link for js -->
+   <script src="script.js"></script>
+   
+    <!--link for js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+  crossorigin="anonymous"></script>
+  
+     <!-- navbars -->
+
+<nav class=" navbar sticky-top navbar-expand-lg  justify-content-center " data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        
+        <b>Validus</b>EduTech
+        <p class="tagLine">Life Long Learning</p>
+      </a>
+    </div>
+    <div class="container-fluid justidfy-content-centre">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link nav-items" href="index.html">HOME</a>
+            <a class="nav-link nav-items aboutHTML" href="about.html">ABOUT</a>
+          <a class="nav-link nav-items" href="tools.html">TOOLS</a>
+          <a class="nav-link nav-items" href="blogs.html">BLOGS</a>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            
+            <li class="nav-item dropdown">
+              <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                STUDENTS' कट्टा 
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="studentKattaOrientation.html">Orientation</a></li>
+                <li><a class="dropdown-item" href="studentKattaProgrammingTank.html">Programming Tank</a></li>
+                <li><a class="dropdown-item" href="studentKattaStudentStories.html">Students' Stories</a></li>
+              </ul>
+            </li>
+          
+        </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  <section class="tools">
+    <div class="row aboutRow aboutHeadRow"><p class="aboutHeading ">Our Backend</p></div>
+    <div class="row toolRow">
+        <div class="col-lg-6 toolCol">
+            <div class="toolBody" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReo1iKuWrvCgk8Zj0Q9hd6YSeSsNenlf7ZoaYAmOXSPg&s" class="img-fluid rounded-start" alt="..." width="100px" height="60px">
+                  </div>
+                  <div class="col-md-8">
+                    <div class=" tooldBody">
+                      <h5 class="card-title toolHead">p5.js</h5>
+                      <p class="card-text">
+                        p5.js is a JavaScript library for creative coding, with a focus on making coding accessible 
+                        and inclusive for artists, designers, educators, beginners, and anyone else! p5.js is free
+                         and open-source because we believe software, and the tools to learn it, should be accessible
+                          to everyone. 
+                          <br><br><b class="sourceTools">Source : <a href="https://p5js.org/">p5.js</a></b>
+
+                      </p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+
+    </div>
+    <div class="row  toolRow">
+      <div class="col-lg-6 toolCol">
+        <div class="toolBody" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="data:image/png;base64,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" class="img-fluid rounded-start" alt="..." width="100px">
+              </div>
+              <div class="col-md-8">
+                <div class=" tooldBody">
+                  <h5 class="card-title toolHead">Geogebra</h5>
+                  <p class="card-text">
+                    GeoGebra is an interactive geometry, algebra, statistics and calculus application, 
+                    intended for learning and teaching mathematics and science from primary school to
+                     university level. GeoGebra is available on multiple platforms, with apps for desktops, 
+                     tablets and web. 
+                     <br><br><b class="sourceTools">Source : <a href="https://www.geogebra.org/?lang=en">Geogebra</a></b>
+                  </p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    </div>
+    <div class="row toolRow">
+        <div class="col-lg-6 toolCol">
+            <div class="toolBody" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="data:image/png;base64,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" class="img-fluid rounded-start" alt="..." width="100px">
+                  </div>
+                  <div class="col-md-8">
+                    <div class=" tooldBody">
+                      <h5 class="card-title toolHead">JavaScript</h5>
+                      <p class="card-text">
+                        JavaScript, often abbreviated as JS, is a programming language that is one of the core
+                         technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites 
+                         use JavaScript on the client side for webpage behavior, often incorporating third-party
+                          libraries. 
+                        <br><br><b class="sourceTools" >Source : <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></b>
+
+                      </p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+
+    </div>
+    <div class="row toolRow">
+      <div class="col-lg-6 toolCol">
+        <div class="toolBody" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="data:image/jpeg;base64,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" class="img-fluid rounded-start" alt="..." width="100px">
+              </div>
+              <div class="col-md-8">
+                <div class=" tooldBody">
+                  <h5 class="card-title toolHead">Python</h5>
+                  <p class="card-text">
+                    Python is a high-level, general-purpose programming language. Its design philosophy 
+                    emphasizes code readability with the use of significant indentation via the off-side rule.
+                     Python is dynamically typed and garbage-collected.  
+                    <br><br><b  class="sourceTools">Source : <a href="https://www.python.org/">Python</a></b>
+
+                  </p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    </div>
+    <div class="row toolRow">
+        <div class="col-lg-6 toolCol">
+            <div class="toolBody" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwb6GXVZ7sosKcx9FmVppOctx89C5XVWopnoWaegtFUw&s" class="img-fluid rounded-start" alt="..." width="130px" height="100px">
+                  </div>
+                  <div class="col-md-8">
+                    <div class=" tooldBody">
+                      <h5 class="card-title toolHead">Seeing Theory</h5>
+                      <p class="card-text">
+                        Seeing Theory is a project designed and created by Daniel Kunin with support from Brown 
+                        University's Royce Fellowship Program. The goal of the project is to make statistics more
+                         accessible to a wider range of students through interactive visualizations
+                         <br><br><b class="sourceTools">Source : <a href="https://seeing-theory.brown.edu/">Seeing theory</a></b>
+
+                      </p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+
+    </div>
+  </section>
+ 
+ <section class="footer">
+  <div class="row">
+    <div class="col-lg-4">
+      <p class="brand"><b>Validus</b>EduTech
+        <p class="tagLine">Life Long Learning</p>
+      </p> <br>
+      
+      <b>Founders</b> <br>    
+      Anand Khandekar <br>
+      Suhani Kolhatkar 
+    </div>
+    <div class="col-lg-4">
+      <h4>Courses</h4>
+      XI th Math and Physics <br>
+      XII th Math and Physics <br>
+      CET                     <br>
+      Engineering Math        <br>
+      Programming Languages
+    </div>
+    <div class="col-lg-4">
+      <h4>Important Links </h4>
+      <a href=".." class="privacyPolicy">Privacy Policy</a><br>
+      <p>Email : validus.edutech@gmail.com</p>
+    </div>
+  </div>
+</section> 
+  
+  
+  <!-- jquery link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="index.js"></script>
+  
+</body>
+
+</html>
