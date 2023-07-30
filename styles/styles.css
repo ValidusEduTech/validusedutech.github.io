@@ -28,17 +28,21 @@ a:hover {
   
 /* to display on large screen */
 @media only screen and (min-width: 600px) {
+    .smScreen{
+        display: none;
+    }
     /*---------------- navigation bar ---------------*/
     .navbar{
          background-color: #112121;/*#1F1F1F; */
         color: white;
+        
 
     }
     .navbar-brand{
         font-size: 30px;
         padding-left: 125px;
         font-weight: 100;
-        padding-top: 10px;
+        padding-top: 5px;
         
     }
     .tagLine{
@@ -285,6 +289,7 @@ a:hover {
         padding: 40px;
     }
     /* -------------plan------------------------------------ */
+    
     .plan{
         background-image: url(/images/planBg.svg);
         padding: 5% 15% 10% 10%;
@@ -743,6 +748,9 @@ a:hover {
 
   /* to display on small screen  */
 @media only screen and (max-width: 600px) {
+    .lgScreen{
+        display: none;
+    }
     /* --------------footer -----------------*/
     .footer{
         background-color: #112121;
@@ -800,7 +808,7 @@ a:hover {
         } 
         .homeRow{
            position: absolute;
-           margin: 10% 20%;
+           margin: 40% 7% 0 7%;
            
         }
        
@@ -813,7 +821,7 @@ a:hover {
            font-weight: 100;
            line-height: 2rem;
            text-align: center;
-           padding: 15px  ;
+           padding: 50px 10px;
            background-color: #0E2926;
            border-radius: 20px;
            
@@ -847,73 +855,45 @@ a:hover {
            color: #112121;
        }
    /*------------------ about ------------------ */
-   .about{
-       margin: 5% 15% 0 10%;
-       color: white;
-       
+   .aboutSm{
+    margin: 3rem;
    }
-   .aboutHeading{
-       font-size: 27px;
-       font-weight: 400;
-       color: #AAC9B0;
-       line-height: 2rem;
-   }
-
-   .aboutInfo{
-       font-size: 15px;
-       font-weight: 400;
-       color: white;
-       line-height: 2rem;
-
-   }
-   .aboutRow{
-       padding-bottom: 40px;
-       margin-bottom: 40px;
-   }
-   .aboutBody{
-       
-       color: #1F1F1F;
-   }
-   .aboutCol{
-       align-content: center;
-   }
-
-   .aboutImg{
-       border-radius: 20px;
-       width: 200px;
-       
-   }
-   .aboutHeadRow{
-       border-bottom: solid 1px #113E39;
-   }
-   .aboutGoalCol{
-       padding: 15px;
-       margin-bottom: 15px;
-       border-radius: 20px;
-       background-color: #1D4541;
-       font-size: 15px;
-       
-   }
-   .aboutGoalColhover{
-    padding: 15px;
-    margin-bottom: 15px;
+   .aboutCol1{
+    background-color:#EFCA99 ;
+    padding: 10px;
     border-radius: 20px;
-    background-color: #F6AF65;
-    color: #112121;
-    font-size: 15px;
-       
+    margin: 0 5px ;
+    color:#11403B ;
    }
+   .aboutCol2{
+    background-color:#B6E4BF ;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 1px ;
+    color:#11403B ;
+   }
+   .aboutHeading {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+   }
+   .aboutInfo{
+    text-align: center;
+    padding: 20px 10px;
+   }
+   
    /*----------------------- philosophy --------------------*/
-   .philosophy{
-    margin: 5% 15% 10% 10%;
+   
 
-}
+
 .philosophyHeading{
     font-size: 25px;
     font-weight: 300;
+    text-align: center;
 }
 .philosophyBrand{
     font-size:35px ;
+    text-align: center;
     
 }
 .philosophyNum{
@@ -935,6 +915,7 @@ a:hover {
 .philosophyCol{
     padding: 50px;
 }
+
 /* -------------------- showcase --------------------------*/
 .showcase{
     background-image: url(/images/sectionProgramBg.svg);
@@ -995,95 +976,109 @@ a:hover {
     margin-bottom: 20px;
 }
 /* --------------------- handsOnExperience ------------------*/
-.handsOnExperience{
-    margin: 5% 15% 10% 10%;
+.progressiveDevelopment{
+    background-image: url(/images/progressiveDevelopmentBg.svg);
+    background-size: cover;
+   
+    padding: 5% 15% 10% 10%;
 }
-
+.progressiveDevelopmentRow{
+    background-color:#204740 ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.progressiveDevelopmentBtn{
+    border-radius: 20px;
+    background-color: #204740;
+    color: #AAC9B0;
+    padding: 30px;
+}
+.progressiveDevelopmentContent{
+    background-color: #204740;
+    color:#ACCBB2 ;
+    border-radius: 20px;
+}
 .handsOnExperienceHeading{
     font-size: 35px;
     font-weight: 600;
     line-height: 2.5rem;
-    padding: 60px;
-}
-.handsOnExperienceHead{
-    font-size:25px ;
-    font-weight: 500;
-    color: #D9E8DD;
-    padding: 20px;
-    
-}
-.handsOnExperienceCol{
-    padding: 20px;
-}
-.handsOnExperienceContent{
-    font-size: 15px;
-    font-weight: 400;
-    color: #ACCBB2;
-    
-}
-.handsOnExperienceOrange{
-    background-color:#F6AF65 ;
-    border-radius: 20px;
-    padding: 40px;
+    text-align: center;
 }
 /* -------------plan------------------------------------ */
-.plan{
-    background-image: url(/images/planBg.svg);
-    padding: 5% 15% 10% 10%;
+
+.planSm{
+    padding: 5% 15% 10% 10% ;
+    background-color: #E4F3E7;
+    color: #0E2926;
 }
-.planHeading{
+.planSmHeading{
     font-size: 35px;
+    color: #0E2926;
     font-weight: 600;
-    line-height: 3rem;
+    text-align: center;
     padding-bottom: 10px;
 }
-.planHead{
-    font-size:25px ;
+.planSmHead{
+    font-size: 20px;
     font-weight: 500;
-    color: #D9E8DD;
-    padding: 20px;
-    padding-top: 70px;
-}
-.foundationSeries1Unit{
-    border-bottom: solid #F6AF65 2px;
-    
-}
-.foundationSeries1Month{
-    border-bottom: solid #346851 1px;
-    
-}
-.foundationSeries1Content{
-    border-bottom: solid #346851 1px;
-    
-}
-
-.foundationSeries1TH{
-    color: #F6AF65;
-    padding: 10px;
-    text-align: left;
-    border-right: solid #346851 1px;
-}
-.foundationSeries1Td{
-    padding: 10px;
-    text-align: left;
-    border-right: solid #346851 1px;
-}
-.foundationSeries1THEnd{
-    color: #F6AF65;
-    padding: 10px;
-    text-align: left;
-}
-.foundationSeries1TdEnd{
-    padding: 10px;
-    text-align: left;
-}
-.foundationSeries1{
-    background-color: #113E39;
-    border-radius: 20px;
-    padding: 20px;
 }
 .programRow{
     padding-top: 30px;
+}
+.planSmBgBlue{
+    background-color: #C0E7DF;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #112121;
+}
+.planSmBtnBlue{
+    background-color: #C0E7DF;
+    border-radius: 10px;
+    color: #112121;
+} 
+.planSmBgGreen{
+    background-color: #C0E8C7;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #112121;
+}
+.planSmBtnGreen{
+    background-color: #C0E8C7;
+    border-radius: 10px;
+    color: #112121;
+} 
+.planSmBgOrange{
+    background-color: #EFD9B4;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #112121;
+}
+.planSmBtnOrange{
+    background-color: #EFD9B4;
+    border-radius: 10px;
+    color: #112121;
+} 
+.planSmBgYellow{
+    background-color: #E2E8C0;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #112121;
+}
+.planSmBtnYellow{
+    background-color: #E2E8C0;
+    border-radius: 10px;
+    color: #112121;
+} 
+.planSmMonth{
+    font-size: 10px;
+}
+.planSmFoundationSeries1 {
+    padding: 20px 0 40px 0;
+    border-bottom: solid 1px #113E39;
 }
 /* ---------------------admissions--------------------- */
 .admission{
