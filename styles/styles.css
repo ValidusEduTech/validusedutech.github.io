@@ -1,0 +1,1895 @@
+/*------------- whole website------------- */
+body{
+    background-color:#112121;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 2rem;
+}
+a{
+    color: white;
+    
+}
+.readMore{
+    color: white;
+}
+a:hover {
+    color: #6ED190;
+  }
+/*------------ canvas for main page------------- */
+#canvas1 {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #112121;
+  
+  }
+  
+/* to display on large screen */
+@media only screen and (min-width: 600px) {
+    .smScreen{
+        display: none;
+    }
+    /*---------------- navigation bar ---------------*/
+    .navbar{
+         background-color: #112121;/*#1F1F1F; */
+        color: white;
+        
+
+    }
+    .navbar-brand{
+        font-size: 30px;
+        padding-left: 125px;
+        font-weight: 100;
+        padding-top: 5px;
+        
+    }
+    .tagLine{
+        font-size: 20px;
+    }
+    .nav-link{
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+     }
+     .item-pink{
+         color: #6ED190;
+        
+     }
+     .dropdown-menu{
+        background-color: #112121;
+        color: #6ED190;
+     }
+     /* ------------------home---------------  */
+      /* .home{
+         color: white;
+         border-radius: 20px;
+         background-color: #112121;
+         justify-content: center;
+         
+         }  */
+         .homeRow{
+            position: absolute;
+            
+            
+         }
+        
+        /* .homeCol{
+            background-color: #112121;
+            justify-content: center;
+        } */
+        .aHome{
+            color: #112121;
+            font-size: 15px;
+            font-weight: 400;
+        }
+        .homeLanding{
+            font-size: 45px;
+            font-weight: 300;
+            line-height: 4rem;
+            text-align: center;
+            padding: 25px 190px 10px 190px ;
+           
+            border-radius: 20px;
+            
+        }
+        .homeContent{
+            font-size: 18px;
+            line-height: 1.5rem;
+            font-weight: 400;
+            padding: 30px 190px 0 190px;
+        }
+        .homeColContent1{
+            background-color: #112121;
+            border-radius: 20px;
+            font-size: 15px;
+            line-height: 1rem;
+            padding: 30px;
+           
+        }
+        .homeLink{
+            text-align: left;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 0.5rem;
+        }
+        .homeMentoreInfo{
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 1.35rem;
+        }
+        .homeColContent2{
+           
+            border-radius: 20px;
+            font-size: 15px;
+            line-height: 1rem;
+        }
+        .homeHeading{
+            font-size: 25px;
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
+        .homeImg{
+            width: 150px;
+        }
+        
+        .homeHead{
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .homeColContentInner{
+            background-color: #F6AF65;
+            font-size: 15px;
+            line-height: 1.5rem;
+            font-weight: 600;
+            padding: 1px 1px;
+            border-radius: 20px;
+            margin: 10px;
+            color: #112121;
+        }
+        .homeButton{
+            font-size: 20px ;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 80px;
+            padding-right: 80px;
+            background-color: #6ED190;
+            color: #112121;
+            border-radius: 15px;
+            font-weight: 600;
+            border-color: #6ED190;
+        }
+        .homeButtonHover{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 20px ;
+            padding-left: 80px;
+            padding-right: 80px;
+            color: #112121;
+            border-radius: 15px;
+            background-color: #F6AF65;
+            font-weight: 600;
+            border-color: #F6AF65;
+            
+        }
+        .home{
+            background-image: linear-gradient(#112121, #113E39 ,#0E2926,#112121);
+        }
+        .attendSessionHref{
+            color: #0E2926;
+            text-decoration: none;
+        }
+        .attendSessionHref:hover{
+            color: #112121;
+        }
+    /*------------------ about ------------------ */
+    .about{
+        padding: 10% 20% 10% 20%;
+        color: white;
+        background-image: linear-gradient(#112121,#0E2926, #113E39 ,#0E2926,#112121);
+        
+    }
+    .aboutHeading{
+        font-size: 37px;
+        font-weight: 400;
+        color: #6ED190;
+        line-height: 2rem;
+    }
+
+    .aboutInfo{
+        font-size: 17px;
+        font-weight: 400;
+        color: white;
+        line-height: 2rem;
+
+    }
+    .aboutRow{
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        
+        border-radius: 20px;
+    }
+    .aboutBody{
+        
+        color: #1F1F1F;
+    }
+    .aboutCol{
+        align-content: center;
+    }
+
+    .aboutImg{
+        border-radius: 20px;
+        width: 400px;
+        padding: 20px;
+        
+    }
+    .aboutHeadRow{
+        border-bottom: solid 1px #113E39;
+    }
+    .aboutGoalCol{
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #1D4541;
+        
+    }
+    .aboutGoalColhover{
+        padding: 20px;
+        background-color: #F6AF65;
+        border-radius: 20px;
+        color: #112121;
+        
+    }
+    /*----------------------- philosophy --------------------*/
+    .philosophy{
+        margin: 5% 15% 10% 10%;
+
+    }
+    .philosophyHeading{
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .philosophyBrand{
+        font-size:50px ;
+        
+    }
+    .philosophyNum{
+        color: #F6AF65;
+        font-weight: 600;
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .philosophyHead{
+        line-break: strict;
+        color: #D9E8DD;
+        font-weight: 600;
+    }
+    .philosophyContent{
+        font-size: 15px;
+        color: #ACCBB2;
+        font-weight: 400;
+    }
+    .philosophyCol{
+        padding: 50px;
+    }
+    /* -------------------- showcase --------------------------*/
+    .showcase{
+        background-image: url(/images/sectionProgramBg.svg);
+        background-size: cover;
+        color: #112121;
+        padding: 5% 15% 10% 10%;
+    }
+    .showcaseHeading{
+        color: #155B53;
+        font-size: 50px;
+        line-height: 3rem;
+        font-weight: 600; 
+        padding: 60px;
+        text-align: center;
+       padding-top: 80px;
+    }
+    .showcaseGreen{
+        background-color:#BBE6C3 ;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+        
+    }
+    .showcaseBlue{
+        background-color:#C0E7DF;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+    }
+    .showcaseOrange{
+        background-color:#EFD9B4 ;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+    }
+    .showcaseYellow{
+        background-color:#E2E7C0 ;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+    }
+    .showcaseNum{
+        color: #155B53;
+        font-size: 40px;
+        font-weight: 600;
+        border-bottom: solid #B0DABC 2px ;
+    }
+    .showcaseContent{
+        font-size: 18px;
+        
+    }
+    .showcaseRow{
+        padding-bottom: 10px;
+    }
+    /* --------------------- handsOnExperience ------------------*/
+    .handsOnExperience{
+        margin: 5% 15% 10% 10%;
+    }
+    
+    .handsOnExperienceHeading{
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 3rem;
+        padding: 60px;
+    }
+    .handsOnExperienceHead{
+        font-size:25px ;
+        font-weight: 500;
+        color: #D9E8DD;
+        padding: 20px;
+        
+    }
+    .handsOnExperienceCol{
+        padding: 20px;
+    }
+    .handsOnExperienceContent{
+        font-size: 15px;
+        font-weight: 400;
+        color: #ACCBB2;
+        
+    }
+    .handsOnExperienceOrange{
+        background-color:#F6AF65 ;
+        border-radius: 20px;
+        padding: 40px;
+    }
+    /* -------------plan------------------------------------ */
+    
+    .plan{
+        background-image: url(/images/planBg.svg);
+        padding: 5% 15% 10% 10%;
+    }
+    .planHeading{
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 3rem;
+        padding-bottom: 10px;
+    }
+    .planHead{
+        font-size:25px ;
+        font-weight: 500;
+        color: #D9E8DD;
+        padding: 20px;
+        padding-top: 70px;
+    }
+    .foundationSeries1Unit{
+        border-bottom: solid #F6AF65 2px;
+        
+    }
+    .foundationSeries1Month{
+        border-bottom: solid #346851 1px;
+        
+    }
+    .foundationSeries1Content{
+        border-bottom: solid #346851 1px;
+        
+    }
+    
+    .foundationSeries1TH{
+        color: #F6AF65;
+        padding: 10px;
+        text-align: left;
+        border-right: solid #346851 1px;
+    }
+    .foundationSeries1Td{
+        padding: 10px;
+        text-align: left;
+        border-right: solid #346851 1px;
+    }
+    .foundationSeries1THEnd{
+        color: #F6AF65;
+        padding: 10px;
+        text-align: left;
+    }
+    .foundationSeries1TdEnd{
+        padding: 10px;
+        text-align: left;
+    }
+    .foundationSeries1{
+        background-color: #113E39;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .programRow{
+        padding-top: 30px;
+    }
+    
+   
+    /* ---------------------admissions--------------------- */
+    .admission{
+        margin: 5% 15% 10% 10%;
+    }
+    .admissionCol{
+        justify-content: center;
+    }
+    .admissionBold{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 2.5rem;
+        color: #E4F3E7;
+    }
+    .admissionLight{
+        font-size: 18px;
+        font-weight: 400;
+        color: #ACCBB2;
+    }
+    /* ----------------------eligibility------------------ */
+    .eligibility{
+        margin: 5% 15% 10% 10%;
+    }
+    .eligibilityCard1{
+        background-color: #1E4A45;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 10px ;
+        text-align: center;
+        
+    }
+    .eligibilityCard2{
+        background-color: #1E4A45;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 10px ;
+        text-align: center;
+        
+    }
+    .eligibilityCardHover{
+        background-color: #F6AF65;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 10px ;
+        text-align: center;
+        color: #112121;
+        
+    }
+    .eligibilityHead{ 
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: center;
+    }
+    .eligibilityImg{
+        width: 50px;
+        margin: 30px 20px 60px 20px;
+    }
+    .eligibilityContent{
+        font-weight: 500;
+        font-size: 15px;
+        
+        
+    }
+    .eligibilityHeading{
+        
+        font-size: 50px;
+        line-height: 3.5rem;
+        font-weight: 600; 
+        
+        
+    }
+    /* -----------------------key admission section----------------- */
+
+    .keyAdmission{
+        margin: 5% 15% 10% 10%;
+    }
+    .keyAdmissionHeading{
+        font-size: 50px;
+        line-height: 3rem;
+        font-weight: 600; 
+        padding-bottom: 60px;
+        
+    }
+    .keyAdmissionCard1{
+        background-color: #1E4A45;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 20px 40px;
+        text-align: center;
+        
+    }
+    .keyAdmissionCard2{
+        background-color: #1E4A45;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 20px 40px;
+        text-align: center;
+        
+    }
+    .keyAdmissionCard3{
+        background-color: #1E4A45;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 20px 40px;
+        text-align: center;
+        
+    }
+    .keyAdmissionCardHover{
+        background-color: #F6AF65;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 20px 40px;
+        text-align: center;
+        color: #112121;
+    }
+    .keyAdmissionHead{
+        font-size: 25px;
+        font-weight: 600; 
+        
+    }
+    .keyAdmissionContent{
+       
+        font-size: 15px;
+    }
+    /* --------------------- admisiion process -------------- */
+    .admissionProcess{
+        background-image: url(/images/admissionProcessBg.svg);
+        padding : 5% 15% 10% 10%;
+        
+    }
+    .admissionProcessHeading{
+        font-size: 50px;
+        line-height: 3rem;
+        font-weight: 600; 
+        padding-bottom: 60px;
+    }
+    .admissionProcessCol{
+        background-color: #194743;
+        border-radius: 20px;
+        padding:  40px;
+    }
+    .admissionProcessNum{
+        background-color: #F6AF65;
+        color: #0E2926;
+        border-radius: 20px;
+        text-align: center;
+        padding: 5px;       
+    }
+    .admissionProcessNumCol{
+        padding-bottom: 30px;
+    }
+    .admissionProcessHead{
+        font-size: 20px;
+        font-weight: 600; 
+        color: #E4F3E7;
+    }
+    .admissionProcessContent{
+        color: #AAC9B0;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .admissionProcessHr{
+        color: #6ED190;
+        
+    }
+    /*----------------------- tools ----------------------- */
+    .toolsBody{
+        background-color: #EDEAEB;
+        color: #1F1F1F;
+        
+        
+        
+    }
+    .tools{
+        margin: 5% 15% 0 15%;
+    }
+    .toolRow{
+        padding-bottom: 100px;
+        
+    }
+    .toolHead{
+        color: #6ED190;
+        font-weight: 400;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .sourceTools{
+        color: #6ED190;
+    }
+    /* --------------------- blogs ----------------- */
+    .blogs{
+        margin: 5% 10%;
+    }
+    .blogImg{
+        border-radius: 20px;
+        width: 100px;
+        padding-right: 40px;
+    }
+    .blogRow{
+        margin: 40px 0 ;
+        border-bottom: solid #6ED190 1px;
+    }
+    .blogHeading{
+        padding-bottom: 50px;
+        border-bottom: solid #6ED190 1px;
+        font-size: 37px;
+        font-weight: 400;
+        color: #6ED190;
+        line-height: 2rem;
+    }
+    /* ----------------- footer ------------------- */
+    .footer{
+        background-color: #0E2926;
+        text-align: center;
+        color: #EDEAEB;
+        font-weight: 100;
+        line-height: 2rem;
+        padding: 20px;
+    }
+    .tagLineFooter{
+        font-size: 15px;
+    }
+    .brandFooter{
+        font-size: 24px;
+    }
+    .privacyPolicy{
+        color: #EDEAEB;
+    }
+    /* ----------------------student katta ------------*/
+    /* ---------------------theme------------- */
+    /* .kattaTheme{
+       
+         
+    } */
+    .kattaThemeContinue{
+        background-image: url(/images/edgeBg.svg);
+        background-size: cover;
+        padding: 17% 15% 10% 10%;
+    }
+    .kattaThemeHeadContinue{
+        font-size:50px ;
+        font-weight: 600;
+        color: #155B53;
+        line-height: 3rem;
+    }
+    .kattaThemeContentContinue{
+        font-size: 18px;
+        font-weight: 400;
+        color: #0E2926;
+        padding: 20px;
+    }
+    .kattaThemeBgTrans{
+        position: absolute;
+    }
+    .kattaThemeHead{
+        font-size:50px ;
+        font-weight: 600;
+        color: #D9E8DD;
+        line-height: 3rem;
+    }
+    .kattaThemeContent{
+        font-size: 18px;
+        font-weight: 400;
+        color: #ACCBB2;
+        padding: 40px;
+    }
+    .kattaThemeCol{
+        padding: 20px;
+        background-color: #112121;
+        border-radius: 20px;
+       margin-top: 70px;
+       margin-left: 20px;
+       margin-right: 30px;
+       
+    }
+    .howContent{
+        font-size:30px ;
+        font-weight: 600;
+        color: #0E2926;
+        line-height: 3rem;
+        padding: 20% 20% 0 20%;
+    }
+    .howContentVisit{
+        font-size:20px ;
+        font-weight: 500;
+        color: #155B53;
+        
+        padding: 0 20%;
+    }
+    .aHow{
+        color: #112121;
+        font-weight: 600;
+    }
+    .howTable{
+        background-color:rgb(236,213,172);
+        border-radius: 20px;
+        padding: 40px 20px;
+        margin: 20px 10px;
+    }
+    
+    .howInput{
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 10px;
+        align-items: center;
+        
+        border: #6ED190;
+    }
+    .howButton{
+        margin: 20px;
+        padding: 0 40px;
+        color: #0E2926;
+    }
+    .howButtonHover{
+        margin: 20px;
+        padding: 0 40px;
+        color: #BBE6C3;
+        background-color: #0E2926;
+    }
+    .edges{
+        background-image: url(/images/edgeBg.svg);
+        background-size: cover;
+        color: #112121;
+        padding: 5% 15% 10% 10%;
+    }
+    .kattaEdgesHeading{
+        color: #155B53;
+        font-size: 50px;
+        line-height: 3rem;
+        font-weight: 600; 
+        padding-bottom: 60px;
+        text-align: left;
+       
+    }
+    .kattaEdgesHead{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+        
+       
+    }
+    .kattaEdgesContent{
+        color: #0E2926;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    /* ------------------------events ------------------*/
+    .event{
+        background-image: url(/images/edgeBg.svg);
+        background-size: cover;
+        padding: 5% 15% 10% 10%;
+        color: #112121;
+    }
+    .event_Heading{
+        color: #155B53;
+        font-size: 50px;
+        font-weight: 600; 
+        padding-bottom: 40px;  
+    }
+    .eventOrange{
+        background-color:#EFCA99;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .eventYellow{
+        background-color:#E2E7C0 ;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .eventBlue{
+        background-color:#C0E7DF;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .eventImg{
+        width: 400px;
+        padding-top: 30px;
+    }
+    .forthComingEventTable{
+        background-color: rgb(236,213,172,0.7);
+        border-radius: 20px;
+        padding: 40px 50px;
+        margin: 20px 10px;
+        align-items: center;
+    }
+    
+    .forthComingEventInput{
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 10px;
+        align-items: center;
+        
+        border: #6ED190;
+    }
+    .forthComingEventButton{
+        margin: 20px;
+        padding: 0 40px;
+        color: #0E2926;
+    }
+    .forthComingEventButtonHover{
+        margin: 20px;
+        padding: 0 40px;
+        color: #BBE6C3;
+        background-color: #0E2926;
+    }
+    .join{
+        padding: 5% 15% 10% 10%; 
+    }
+    .joinHeading{
+        color: #AAC9B0;
+        font-size: 40px;
+        font-weight: 600; 
+        padding-bottom: 20px; 
+        line-height: 3rem;
+        text-align: left;
+    }
+    .joinTable{
+        background-color: #113E39;
+        border-radius: 20px;
+        padding: 40px 50px;
+        margin: 20px 10px;
+        align-items: center;
+        
+    }
+    .joinInput{
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 10px;
+        align-items: center;
+        background-color: #E2E7C0;
+        margin: 10px;
+        border: #6ED190;
+    }
+    .joinButton{
+        margin: 20px;
+        padding: 0 40px;
+        color: #0E2926;
+    }
+    .joinButtonHover{
+        margin: 20px;
+        padding: 0 40px;
+        color: #BBE6C3;
+        background-color: #0E2926;
+    }
+    /*------------------- activities----------------- */
+    .activitiesInfo{
+        padding: 0 250px 5px 250px;
+    }
+    .activitiesInfoImg{
+        height: 600px;
+        
+    }
+    /* ----------------------------------------------------- */
+    .presentation{
+        background-color: #ACCBB2;
+        color: #0E2926;
+        padding: 5% 15% 2% 10%;
+    }
+    .presentationHead{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+    }
+    .presentationCol{
+        background-color: #E2E7C0;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .gd{
+        background-color: #ACCBB2;
+        color: #0E2926;
+        padding: 5% 15% 2% 10%;
+        
+    }
+    .gdHead{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+    }
+    .gdCol{
+        background-color: #EFD9B4;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .kattaStory{
+        background-color: #ACCBB2;
+        color: #0E2926;
+        padding: 0 15% 10% 10%;
+    }
+    .kattaStoryHead{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+    }
+    .kattaStoryCol{
+        background-color: #C0E7DF;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+/* -------------------------contact---------------- */
+    .contact{
+        margin: 5% 25% 10% 35%; 
+        
+    }
+    
+    .contactTable{
+        background-color: #113E39;
+        border-radius: 20px;
+        padding: 30px;
+    }
+    .contactInput{
+        border-radius: 10px;
+        margin: 10px 20px;
+        padding: 0 130px ;
+    }
+    .contactButton{
+        padding: 0 200px ;
+        background-color: #6ED190;
+        color: #112121;
+    }
+    
+}
+
+  /* to display on small screen  */
+@media only screen and (max-width: 600px) {
+    .lgScreen{
+        display: none;
+    }
+    /* --------------footer -----------------*/
+    .footer{
+        background-color: #112121;
+        text-align: center;
+        color: #EDEAEB;
+        font-weight: 100;
+        line-height: 1.5rem;
+        padding: 15px;
+        font-size: 10px;
+        
+    }
+    .tagLineFooter{
+        font-size: 10px;
+    }
+    .brandFooter{
+        font-size:20px ;
+    }
+    
+    .navbar{
+        background-color: #112121;/*#1F1F1F; */
+       color: white;
+
+   }
+   .navbar-brand{
+       font-size: 30px;
+       padding-left: 125px;
+       font-weight: 100;
+       padding-top: 10px;
+       
+   }
+   .nav-link{
+       padding: 10px;
+       font-size: 20px;
+       color: white;
+    }
+    .item-pink{
+        color: #6ED190;
+       
+    }
+    .dropdown-menu{
+       background-color: #112121;
+       color: #6ED190;
+    }
+    .tagLine{
+        font-size: 20px;
+        text-align: center;
+    }
+    /* ------------------home---------------  */
+     /* ------------------home---------------  */
+       /* .home{
+         color: white;
+         border-radius: 20px;
+         background-color: #112121;
+         justify-content: center;
+         
+         }   */
+         
+         .homeRow{
+            padding: 20px;
+            
+            
+         }
+        
+        
+        .aHome{
+            color: #112121;
+            font-size: 10px;
+            font-weight: 400;
+        }
+        .homeLanding{
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 2.15rem;
+            text-align: center;
+           
+            border-radius: 20px;
+            
+        }
+        .homeContent{
+            font-size: 15px;
+            line-height: 1.5rem;
+            font-weight: 400;
+           padding: 10px 5px 0 5px;
+        }
+        .homeColContent1{
+            background-color: #112121;
+            border-radius: 20px;
+            font-size: 15px;
+            line-height: 1.5rem;
+           padding: 10px;
+           margin: 0 10px 0 10px;
+        }
+        .homeLink{
+            text-align: left;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 0.5rem;
+        }
+        .homeMentoreInfo{
+            font-size: 10px;
+            font-weight: 300;
+            line-height: 1rem;
+        }
+        .homeColContent2{
+           
+            border-radius: 20px;
+            font-size: 15px;
+            line-height: 1rem;
+        }
+        .homeHeading{
+            font-size: 25px;
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
+        .homeImg{
+            width: 80px;
+        }
+        .homeHeading{
+            padding-top: 20px;
+        }
+        .homeHead{
+            font-size: 20px;
+            font-weight: 400;
+            padding-top: 10px;
+        }
+        .homeColContentInner{
+            background-color: #F6AF65;
+            font-size: 12px;
+            line-height: 1.5rem;
+            font-weight: 600;
+            padding: 1px 1px;
+            border-radius: 20px;
+            margin: 10px;
+            color: #112121;
+        }
+        .homeButton{
+            font-size: 15px ;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 80px;
+            padding-right: 80px;
+            background-color: #6ED190;
+            color: #112121;
+            border-radius: 15px;
+            font-weight: 600;
+            border-color: #6ED190;
+        }
+        .homeButtonHover{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 15px ;
+            padding-left: 80px;
+            padding-right: 80px;
+            color: #112121;
+            border-radius: 15px;
+            background-color: #F6AF65;
+            font-weight: 600;
+            border-color: #F6AF65;
+            
+        }
+        .home{
+            background-image: linear-gradient(#112121, #113E39 ,#0E2926,#112121);
+        }
+        .attendSessionHref{
+            color: #0E2926;
+            text-decoration: none;
+        }
+        .attendSessionHref:hover{
+            color: #112121;
+        }
+    /*------------------ about ------------------ */
+    .about{
+        padding: 0 10% ;
+        color: white;
+        background-image: linear-gradient(#112121,#0E2926, #113E39 ,#0E2926,#112121);
+        
+    }
+    .aboutHeading{
+        font-size: 30px;
+        font-weight: 400;
+        color: #6ED190;
+        line-height: 2rem;
+    }
+
+    .aboutInfo{
+        font-size: 13px;
+        font-weight: 400;
+        color: white;
+        line-height: 2rem;
+
+    }
+    .aboutRow{
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        
+        border-radius: 20px;
+    }
+    .aboutBody{
+        
+        color: #1F1F1F;
+    }
+    .aboutCol{
+        align-content: center;
+    }
+
+    .aboutImg{
+        border-radius: 20px;
+        width: 400px;
+        padding: 20px;
+        
+    }
+    .aboutHeadRow{
+        border-bottom: solid 1px #113E39;
+    }
+    .aboutGoalCol{
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #1D4541;
+        
+    }
+    .aboutGoalColhover{
+        padding: 20px;
+        background-color: #F6AF65;
+        border-radius: 20px;
+        color: #112121;
+        
+    }
+   
+   /*----------------------- philosophy --------------------*/
+   
+
+
+.philosophyHeading{
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.philosophyBrand{
+    font-size:35px ;
+    text-align: center;
+    
+}
+.philosophyNum{
+    color: #F6AF65;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.philosophyHead{
+    line-break: strict;
+    color: #D9E8DD;
+    font-weight: 600;
+}
+.philosophyContent{
+    font-size: 15px;
+    color: #ACCBB2;
+    font-weight: 400;
+}
+.philosophyCol{
+    padding: 50px;
+}
+
+/* -------------------- showcase --------------------------*/
+.showcase{
+    background-image: url(/images/sectionProgramBg.svg);
+    background-size: cover;
+    color: #112121;
+    padding: 5% 15% 10% 10%;
+}
+.showcaseHeading{
+    color: #155B53;
+    font-size: 35px;
+    line-height: 2rem;
+    font-weight: 600; 
+    padding: 60px;
+    text-align: center;
+   padding-top: 80px;
+}
+.showcaseGreen{
+    background-color:#BBE6C3 ;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    
+    
+}
+.showcaseBlue{
+    background-color:#C0E7DF;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.showcaseOrange{
+    background-color:#EFD9B4 ;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.showcaseYellow{
+    background-color:#E2E7C0 ;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.showcaseNum{
+    color: #155B53;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: solid #B0DABC 2px ;
+}
+.showcaseContent{
+    font-size: 15px;
+    
+}
+.showcaseRow{
+    padding-bottom: 10px;
+    
+}
+.showcaseCol{
+    margin-bottom: 20px;
+}
+/* --------------------- handsOnExperience ------------------*/
+.progressiveDevelopment{
+    background-image: url(/images/progressiveDevelopmentBg.svg);
+    background-size: cover;
+   
+    padding: 5% 15% 10% 10%;
+}
+.progressiveDevelopmentRow{
+    background-color:#204740 ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.progressiveDevelopmentBtn{
+    border-radius: 20px;
+    background-color: #204740;
+    color: #AAC9B0;
+    padding: 30px;
+}
+.progressiveDevelopmentContent{
+    background-color: #204740;
+    color:#ACCBB2 ;
+    border-radius: 20px;
+}
+.handsOnExperienceHeading{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-align: center;
+}
+/* -------------plan------------------------------------ */
+
+.planSm{
+    padding: 5% 15% 10% 10% ;
+    background-color: #E4F3E7;
+    color: #0E2926;
+}
+.planSmHeading{
+    font-size: 35px;
+    color: #0E2926;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.planSmHead{
+    font-size: 20px;
+    font-weight: 500;
+}
+.programRow{
+    padding-top: 30px;
+}
+.planSmBgBlue{
+    background-color: #C0E7DF;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #112121;
+}
+.planSmBtnBlue{
+    background-color: #C0E7DF;
+    border-radius: 10px;
+    color: #112121;
+} 
+.planSmBgGreen{
+    background-color: #C0E8C7;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #112121;
+}
+.planSmBtnGreen{
+    background-color: #C0E8C7;
+    border-radius: 10px;
+    color: #112121;
+} 
+.planSmBgOrange{
+    background-color: #EFD9B4;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #112121;
+}
+.planSmBtnOrange{
+    background-color: #EFD9B4;
+    border-radius: 10px;
+    color: #112121;
+} 
+.planSmBgYellow{
+    background-color: #E2E8C0;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #112121;
+}
+.planSmBtnYellow{
+    background-color: #E2E8C0;
+    border-radius: 10px;
+    color: #112121;
+} 
+.planSmMonth{
+    font-size: 10px;
+}
+.planSmFoundationSeries1 {
+    padding: 20px 0 40px 0;
+    border-bottom: solid 1px #113E39;
+}
+/* ---------------------admissions--------------------- */
+.admission{
+    margin: 5% 15% 10% 10%;
+}
+.admissionCol{
+    justify-content: center;
+}
+.admissionBold{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #E4F3E7;
+}
+.admissionLight{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ACCBB2;
+}
+.admissionImg{
+    opacity: 0;
+}
+/* ----------------------eligibility------------------ */
+.eligibility{
+    margin: 5% 15% 10% 10%;
+}
+.eligibilityCard1{
+    background-color: #1E4A45;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px ;
+    text-align: center;
+    
+}
+.eligibilityCard2{
+    background-color: #1E4A45;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px ;
+    text-align: center;
+    
+}
+.eligibilityCardHover{
+    background-color: #F6AF65;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px ;
+    text-align: center;
+    color: #112121;
+    
+}
+.eligibilityHead{ 
+    font-size: 25px;
+    line-height: 3rem;
+    font-weight: 500; 
+    text-align: center;
+}
+.eligibilityImg{
+    width: 50px;
+    margin: 30px 20px 60px 20px;
+}
+.eligibilityContent{
+    font-weight: 500;
+    font-size: 15px;
+    
+    
+}
+.eligibilityHeading{
+    
+    font-size: 35px;
+    line-height: 3.5rem;
+    font-weight: 600; 
+    
+    
+}
+/* -----------------------key admission section----------------- */
+
+.keyAdmission{
+    margin: 5% 15% 10% 10%;
+}
+.keyAdmissionHeading{
+    font-size: 35px;
+    line-height: 2.5rem;
+    font-weight: 600; 
+    padding-bottom: 60px;
+    
+}
+.keyAdmissionCard1{
+    background-color: #1E4A45;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    
+}
+.keyAdmissionCard2{
+    background-color: #1E4A45;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    
+}
+.keyAdmissionCard3{
+    background-color: #1E4A45;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    
+}
+.keyAdmissionCardHover{
+    background-color: #F6AF65;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    color: #112121;
+}
+.keyAdmissionHead{
+    font-size: 25px;
+    font-weight: 600; 
+    
+}
+.keyAdmissionContent{
+   
+    font-size: 15px;
+}
+/* --------------------- admisiion process -------------- */
+.admissionProcess{
+    background-image: url(/images/admissionProcessBg.svg);
+    padding : 5% 15% 10% 10%;
+    
+}
+.admissionProcessHeading{
+    font-size: 35px;
+    line-height: 3rem;
+    font-weight: 600; 
+    padding-bottom: 60px;
+}
+.admissionProcessCol{
+    background-color: #194743;
+    border-radius: 20px;
+    padding:  40px;
+    margin-bottom: 10px;
+}
+.admissionProcessNum{
+    background-color: #F6AF65;
+    color: #0E2926;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;       
+}
+.admissionProcessNumCol{
+    padding-bottom: 30px;
+    
+}
+.admissionProcessHead{
+    font-size: 20px;
+    font-weight: 600; 
+    color: #E4F3E7;
+}
+.admissionProcessContent{
+    color: #AAC9B0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.admissionProcessHr{
+    color: #6ED190;
+    
+}
+/* students' katta */
+/* ---------------------theme------------- */
+    /* .kattaTheme{
+       
+      padding-bottom: 300px;   
+    } */
+    .kattaThemeContinue{
+        background-image: url(/images/edgeBg.svg);
+        background-size: cover;
+        padding: 7% 5% 5% 5%;
+    }
+    .kattaThemeHeadContinue{
+        font-size:30px ;
+        font-weight: 600;
+        color: #155B53;
+        line-height: 1rem;
+    }
+    .kattaThemeContentContinue{
+        font-size: 15px;
+        font-weight: 400;
+        color: #0E2926;
+        padding: 10px;
+    }
+    /* .kattaThemeBgTrans{
+        position: absolute;
+    } */
+    .kattaThemeHead{
+        font-size:30px ;
+        font-weight: 600;
+        color: #D9E8DD;
+        line-height: 1rem;
+        padding: 40px 40px 0 40px;
+    }
+    .kattaThemeContent{
+        font-size: 15px;
+        font-weight: 400;
+        color: #ACCBB2;
+        padding:  10px 60px;
+    }
+    .kattaThemeCol{
+        padding: 20px;
+        background-color: #112121;
+        border-radius: 20px;
+       margin-top: 70px;
+       margin-left: 20px;
+       margin-right: 30px;
+       
+    }
+    .howContent{
+        font-size:30px ;
+        font-weight: 600;
+        color: #0E2926;
+        line-height: 3rem;
+        padding: 20% 30% 0 30%;
+    }
+    .howContentVisit{
+        font-size:15px ;
+        font-weight: 500;
+        color: #ACCBB2;
+        
+        padding: 0 20%;
+    }
+    .aHow{
+        color: #F6AF65;
+        font-weight: 600;
+    }
+    .howTable{
+        background-color:rgb(236,213,172);
+        border-radius: 20px;
+        
+    }
+    .howRow{
+        background-color: #113E39;
+        border-radius: 20px;
+        margin: 5px 10px ;
+    }
+    
+    .howInput{
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 10px;
+        align-items: center;       
+        border: #6ED190;
+    }
+    .howButton{
+        margin: 20px;
+        padding: 0 40px;
+        color: #0E2926;
+    }
+    .howButtonHover{
+        margin: 20px;
+        padding: 0 40px;
+        color: #BBE6C3;
+        background-color: #0E2926;
+    }
+    .edges{
+        background-image: url(/images/edgeBg.svg);
+        background-size: cover;
+        color: #112121;
+        padding: 5% 15% 10% 10%;
+    }
+    .kattaEdgesHeading{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 2rem;
+        font-weight: 600; 
+        padding-bottom: 60px;
+        text-align: left;
+       
+    }
+    .kattaEdgesHead{
+        color: #155B53;
+        font-size: 20px;
+        line-height: 2rem;
+        font-weight: 500; 
+        text-align: left;
+        
+       
+    }
+    .kattaEdgesContent{
+        color: #0E2926;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    /* ------------------------events ------------------*/
+    .event{
+        background-image: url(/images/edgeBg.svg);
+        background-size: cover;
+        padding: 5% 15% 10% 10%;
+        color: #112121;
+    }
+    .event_Heading{
+        color: #155B53;
+        font-size: 30px;
+        font-weight: 600; 
+        padding-bottom: 40px;  
+    }
+    .eventOrange{
+        background-color:#EFD9B4;
+        border-radius: 20px;
+        padding: 20px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .eventYellow{
+        background-color:#E2E7C0 ;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .eventBlue{
+        background-color:#C0E7DF;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .eventImg{
+        width: 300px;
+        padding-top: 30px;
+    }
+    .eventNum{
+        color: #0E2926;
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    .forthComingEventTable{
+        background-color: rgb(236,213,172,0.7);
+        border-radius: 20px;
+        padding: 40px 50px;
+        margin: 20px 10px;
+        align-items: center;
+    }
+    
+    .forthComingEventInput{
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 10px;
+        align-items: center;
+        
+        border: #6ED190;
+    }
+    .forthComingEventButton{
+        margin: 20px;
+        padding: 0 40px;
+        color: #0E2926;
+    }
+    .forthComingEventButtonHover{
+        margin: 20px;
+        padding: 0 40px;
+        color: #BBE6C3;
+        background-color: #0E2926;
+    }
+    .join{
+        padding: 5% 15% 10% 10%; 
+    }
+    .joinHeading{
+        color: #AAC9B0;
+        font-size: 40px;
+        font-weight: 600; 
+        padding-bottom: 20px; 
+        line-height: 3rem;
+        text-align: left;
+    }
+    .joinTable{
+        background-color: #113E39;
+        border-radius: 20px;
+        padding: 40px 50px;
+        margin: 20px 10px;
+        align-items: center;
+        
+    }
+    .joinInput{
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 10px;
+        align-items: center;
+        background-color: #E2E7C0;
+        margin: 10px;
+        border: #6ED190;
+    }
+    .joinButton{
+        margin: 20px;
+        padding: 0 40px;
+        color: #0E2926;
+    }
+    .joinButtonHover{
+        margin: 20px;
+        padding: 0 40px;
+        color: #BBE6C3;
+        background-color: #0E2926;
+    }
+    /*------------------- activities----------------- */
+    .activitiesInfo{
+        padding: 0 250px 5px 250px;
+    }
+    .activitiesInfoImg{
+        height: 600px;
+        
+    }
+    .activitiesInfoHeading{
+        
+        font-size: 30px;
+        font-weight: 500;
+    }
+    /* ----------------------------------------------------- */
+    .presentation{
+        background-color: #ACCBB2;
+        color: #0E2926;
+        padding: 5% 15% 2% 10%;
+    }
+    .presentationHead{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+    }
+    .presentationCol{
+        background-color: #E2E7C0;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .gd{
+        background-color: #ACCBB2;
+        color: #0E2926;
+        padding: 5% 15% 2% 10%;
+        
+    }
+    .gdHead{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+    }
+    .gdCol{
+        background-color: #EFD9B4;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .kattaStory{
+        background-color: #ACCBB2;
+        color: #0E2926;
+        padding: 0 15% 10% 10%;
+    }
+    .kattaStoryHead{
+        color: #155B53;
+        font-size: 30px;
+        line-height: 3rem;
+        font-weight: 500; 
+        text-align: left;
+    }
+    .kattaStoryCol{
+        background-color: #C0E7DF;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+/* -------------------------contact---------------- */
+    .contact{
+        margin: 5% 25% 10% 35%; 
+        
+    }
+    
+    .contactTable{
+        background-color: #113E39;
+        border-radius: 20px;
+        padding-right: 30px;
+        
+    }
+    .contactInput{
+        border-radius: 10px;
+        margin: 10px 20px;
+        padding: 0 10px ;
+        border: #AAC9B0;
+        font-size: 12px;
+    }
+    .contactButton{
+        padding: 0 20px ;
+        background-color: #6ED190;
+        color: #112121;
+        font-weight: 600;
+    }
+    
+}
+  
