@@ -86,26 +86,25 @@ a:hover {
         }
         .homeLanding{
             font-size: 45px;
-            font-weight: 300;
-            line-height: 4rem;
+            line-height: 3.5rem;
+            font-weight: 400;
+            padding: 200px 250px ;
             text-align: center;
-            padding: 25px 190px 10px 190px ;
-           
-            border-radius: 20px;
             
         }
-        .homeContent{
+        /* .homeContent{
             font-size: 18px;
             line-height: 1.5rem;
             font-weight: 400;
             padding: 30px 190px 0 190px;
-        }
+        } */
         .homeColContent1{
             background-color: #112121;
             border-radius: 20px;
             font-size: 15px;
             line-height: 1rem;
-            padding: 30px;
+            padding: 20px;
+            text-align: center;
            
         }
         .homeLink{
@@ -117,7 +116,7 @@ a:hover {
         .homeMentoreInfo{
             font-size: 15px;
             font-weight: 300;
-            line-height: 1.35rem;
+            line-height: 1.5rem;
         }
         .homeColContent2{
            
@@ -126,9 +125,11 @@ a:hover {
             line-height: 1rem;
         }
         .homeHeading{
-            font-size: 25px;
+            font-size: 27px;
             font-weight: 500;
             padding-bottom: 10px;
+            padding-top: 10px;
+            line-height: 2rem;
         }
         .homeImg{
             width: 150px;
@@ -176,6 +177,12 @@ a:hover {
         .home{
             background-image: linear-gradient(#112121, #113E39 ,#0E2926,#112121);
         }
+        .homeIntoduction{
+            background-image: linear-gradient(#112121, #113E39 ,#0E2926,#112121);
+            padding: 0 17% 10% 17%;
+            text-align: center;
+            
+        }
         .attendSessionHref{
             color: #0E2926;
             text-decoration: none;
@@ -183,9 +190,15 @@ a:hover {
         .attendSessionHref:hover{
             color: #112121;
         }
+        .homeRowContent{
+            text-align: center;
+        }
+        .homeRowContentInner{
+            text-align: center;
+        }
     /*------------------ about ------------------ */
     .about{
-        padding: 10% 20% 10% 20%;
+        padding: 10% 20% 0 20%;
         color: white;
         background-image: linear-gradient(#112121,#0E2926, #113E39 ,#0E2926,#112121);
         
@@ -193,7 +206,7 @@ a:hover {
     .aboutHeading{
         font-size: 37px;
         font-weight: 400;
-        color: #6ED190;
+        color: #B0DABC;
         line-height: 2rem;
     }
 
