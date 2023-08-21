@@ -75,10 +75,7 @@ a:hover {
             
          }
         
-        /* .homeCol{
-            background-color: #112121;
-            justify-content: center;
-        } */
+        
         .aHome{
             color: #112121;
             font-size: 15px;
@@ -90,6 +87,7 @@ a:hover {
             font-weight: 400;
             padding: 200px 250px ;
             text-align: center;
+           
             
         }
         /* .homeContent{
@@ -99,7 +97,7 @@ a:hover {
             padding: 30px 190px 0 190px;
         } */
         .homeColContent1{
-            background-color: #112121;
+           
             border-radius: 20px;
             font-size: 15px;
             line-height: 1rem;
@@ -174,11 +172,9 @@ a:hover {
             border-color: #F6AF65;
             
         }
-        .home{
-            background-image: linear-gradient(#112121, #113E39 ,#0E2926,#112121);
-        }
+        
         .homeIntoduction{
-            background-image: linear-gradient(#112121, #113E39 ,#0E2926,#112121);
+            
             padding: 0 17% 10% 17%;
             text-align: center;
             
@@ -983,7 +979,7 @@ a:hover {
         background-color: #112121;
         text-align: center;
         color: #EDEAEB;
-        font-weight: 100;
+        font-weight: 300;
         line-height: 1.5rem;
         padding: 15px;
         font-size: 10px;
@@ -1003,9 +999,10 @@ a:hover {
    }
    .navbar-brand{
        font-size: 30px;
-       padding-left: 125px;
+       padding-left: 30%;
        font-weight: 100;
        padding-top: 10px;
+       
        
    }
    .nav-link{
@@ -1026,72 +1023,80 @@ a:hover {
         text-align: center;
     }
     /* ------------------home---------------  */
-     /* ------------------home---------------  */
-       /* .home{
-         color: white;
-         border-radius: 20px;
-         background-color: #112121;
-         justify-content: center;
-         
-         }   */
-         
+    
          .homeRow{
-            padding: 20px;
-            
+            position: absolute;
+           
             
          }
         
+        /* .homeCol{
+            background-color: #112121;
+            justify-content: center;
+        } */
         
         .aHome{
             color: #112121;
-            font-size: 10px;
+            font-size: 15px;
             font-weight: 400;
         }
         .homeLanding{
-            font-size: 30px;
-            font-weight: 300;
-            line-height: 2.15rem;
+            font-size: 25px;
+            line-height: 3.5rem;
+            font-weight: 400;
+            padding: 40px 25px  ;
             text-align: center;
-           
-            border-radius: 20px;
+            
             
         }
         .homeContent{
-            font-size: 15px;
+            font-size: 18px;
             line-height: 1.5rem;
-            font-weight: 400;
-           padding: 10px 5px 0 5px;
+            font-weight: 600;
+            padding: 30px 190px 0 190px;
         }
         .homeColContent1{
-            background-color: #112121;
+           
             border-radius: 20px;
-            font-size: 15px;
-            line-height: 1.5rem;
-           padding: 10px;
-           margin: 0 10px 0 10px;
+           
+            line-height: 1rem;
+            padding: 10px;
+            text-align: center;
+            background-color: #204740;
+            
+            font-weight: 600;
+            margin: 20px;
+           
         }
         .homeLink{
             text-align: left;
-            font-size: 10px;
-            font-weight: 400;
+            font-size: 7px;
+            font-weight: 600;
             line-height: 0.5rem;
+           
         }
         .homeMentoreInfo{
-            font-size: 10px;
-            font-weight: 300;
-            line-height: 1rem;
+            font-size: 12px;
+            font-weight: 500;
+           
+            padding-bottom: 20px;
         }
         .homeColContent2{
-           
+            margin-top: 30px;
+            background-color: #1D4541;
             border-radius: 20px;
-            font-size: 15px;
+            font-size: 13px;
             line-height: 1rem;
+            
         }
         .homeHeading{
-            font-size: 25px;
+            font-size: 15px;
             font-weight: 500;
             padding-bottom: 10px;
+            padding-top: 10px;
+            line-height: 2rem;
         }
+     
         .homeImg{
             width: 80px;
         }
@@ -1099,7 +1104,7 @@ a:hover {
             padding-top: 20px;
         }
         .homeHead{
-            font-size: 20px;
+            font-size: 15px;
             font-weight: 400;
             padding-top: 10px;
         }
@@ -1108,17 +1113,17 @@ a:hover {
             font-size: 12px;
             line-height: 1.5rem;
             font-weight: 600;
-            padding: 1px 1px;
+            
             border-radius: 20px;
             margin: 10px;
             color: #112121;
         }
         .homeButton{
+            padding-top: 5px;
+            padding-bottom: 5px;
             font-size: 15px ;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            padding-left: 80px;
-            padding-right: 80px;
+            padding-left: 40px;
+            padding-right: 40px;
             background-color: #6ED190;
             color: #112121;
             border-radius: 15px;
@@ -1126,11 +1131,11 @@ a:hover {
             border-color: #6ED190;
         }
         .homeButtonHover{
-            padding-top: 20px;
-            padding-bottom: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
             font-size: 15px ;
-            padding-left: 80px;
-            padding-right: 80px;
+            padding-left: 40px;
+            padding-right: 40px;
             color: #112121;
             border-radius: 15px;
             background-color: #F6AF65;
@@ -1138,8 +1143,11 @@ a:hover {
             border-color: #F6AF65;
             
         }
-        .home{
-            background-image: linear-gradient(#112121, #113E39 ,#0E2926,#112121);
+        .homeIntoduction{
+            
+            padding: 0 17% 10% 17%;
+            text-align: center;
+            
         }
         .attendSessionHref{
             color: #0E2926;
@@ -1148,9 +1156,29 @@ a:hover {
         .attendSessionHref:hover{
             color: #112121;
         }
+        .homeRowContent{
+            text-align: center;
+        }
+        .homeRowContentInner{
+            text-align: center;
+        }
+        .aboutCol1{
+            padding: 0 60px;
+        }
+        /* .home{
+            background-image: linear-gradient(#112121, #113E39 ,#0E2926,#112121);
+        } */
+        .attendSessionHref{
+            color: #0E2926;
+            text-decoration: none;
+        }
+        .attendSessionHref:hover{
+            color: #112121;
+        }
     /*------------------ about ------------------ */
+    
     .about{
-        padding: 0 10% ;
+        padding: 50% 10% ;
         color: white;
         background-image: linear-gradient(#112121,#0E2926, #113E39 ,#0E2926,#112121);
         
@@ -1158,7 +1186,7 @@ a:hover {
     .aboutHeading{
         font-size: 30px;
         font-weight: 400;
-        color: #6ED190;
+        color: #AAC9B0;
         line-height: 2rem;
     }
 
@@ -1196,6 +1224,9 @@ a:hover {
         padding: 20px;
         border-radius: 20px;
         background-color: #1D4541;
+        font-size: 12px;
+        line-height: 1rem;
+        margin-bottom: 20px;
         
     }
     .aboutGoalColhover{
@@ -1708,34 +1739,53 @@ a:hover {
     }
     .event_Heading{
         color: #155B53;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 600; 
         padding-bottom: 40px;  
+    }
+    .eventContent{
+        font-size: 14px;
     }
     .eventOrange{
         background-color:#EFD9B4;
         border-radius: 20px;
         padding: 20px;
-        text-align: left;
+        text-align: center;
         margin-bottom: 20px;
+        margin: 20px;
+        font-size: 15px;
     }
     .eventYellow{
         background-color:#E2E7C0 ;
         border-radius: 20px;
         padding: 10px;
-        text-align: left;
+        text-align: center;
         margin-bottom: 20px;
+        margin: 20px;
+        font-size: 15px;
     }
     .eventBlue{
         background-color:#C0E7DF;
         border-radius: 20px;
-        padding: 10px;
-        text-align: left;
+        padding: 20px;
+        text-align: center;
         margin-bottom: 20px;
+        margin: 20px;
+        font-size: 15px;
+    }
+    .eventGreen{
+        background-color:#C0E8C7;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin: 20px;
+        font-size: 15px;    
     }
     .eventImg{
-        width: 300px;
+        width: 250px;
         padding-top: 30px;
+       
     }
     .eventNum{
         color: #0E2926;
@@ -1744,7 +1794,7 @@ a:hover {
         padding-bottom: 10px;
     }
     .forthComingEventTable{
-        background-color: rgb(236,213,172,0.7);
+        background-color: rgba(249, 212, 146, 0.7);
         border-radius: 20px;
         padding: 40px 50px;
         margin: 20px 10px;
@@ -1752,7 +1802,7 @@ a:hover {
     }
     
     .forthComingEventInput{
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 500;
         border-radius: 10px;
         align-items: center;
@@ -1771,11 +1821,11 @@ a:hover {
         background-color: #0E2926;
     }
     .join{
-        padding: 5% 15% 10% 10%; 
+        padding: 5% 35% 10% 30%; 
     }
     .joinHeading{
         color: #AAC9B0;
-        font-size: 40px;
+        font-size: 20px;
         font-weight: 600; 
         padding-bottom: 20px; 
         line-height: 3rem;
@@ -1783,15 +1833,17 @@ a:hover {
     }
     .joinTable{
         background-color: #113E39;
+        text-align: center;
         border-radius: 20px;
-        padding: 40px 50px;
-        margin: 20px 10px;
+        
+        
         align-items: center;
         
     }
     .joinInput{
-        font-size: 15px;
-        font-weight: 500;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 600;
         border-radius: 10px;
         align-items: center;
         background-color: #E2E7C0;
