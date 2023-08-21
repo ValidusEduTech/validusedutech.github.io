@@ -811,6 +811,15 @@ a:hover {
         text-align: left;
         margin-bottom: 20px;
     }
+    .eventGreen{
+        background-color:#aaceb6;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: left;
+        margin-bottom: 20px;
+        margin: 20px;
+        font-size: 15px;    
+    }
     .eventImg{
         width: 400px;
         padding-top: 30px;
@@ -1774,7 +1783,7 @@ a:hover {
         font-size: 15px;
     }
     .eventGreen{
-        background-color:#C0E8C7;
+        background-color:#aaceb6;
         border-radius: 20px;
         padding: 10px;
         text-align: center;
