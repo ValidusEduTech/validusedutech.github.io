@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validus EduTech </title>
+  <!-- link for the bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--link for bootstrap version 5.3-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!--link for css-->
+  <link rel="stylesheet" href="/styles/styles.css">
+  <!--link for fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+<!-- link for gojs -->
+<script src="https://unpkg.com/gojs/release/go-debug.js"></script>
+</head>
+<body>
+    
+    <!-- link for js -->
+   <script src="script.js"></script>
+   
+    <!--link for js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+  crossorigin="anonymous"></script>
+  
+     <!-- navbars -->
+
+<nav class=" navbar sticky-top navbar-expand-lg  justify-content-center " data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        
+        <b>Validus</b>EduTech
+        <p class="tagLine"><b>आजीवनं शिक्षणम्</b></p>
+      </a>
+    </div>
+    <div class="container-fluid justidfy-content-centre">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link nav-items " href="index.html">Home</a>
+                      <a class="nav-link nav-items" href="about.html">About</a>
+            <a class="nav-link nav-items" href="programs.html">Programs</a>
+            <a class="nav-link nav-items" href="admissions.html">Admissions</a>
+          <!-- <div class="collapse navbar-collapse" id="navbarNavDarkDropdown"> -->
+            
+              <li class="nav-items dropdown">
+                <!-- <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown  " aria-expanded="false">
+                  
+                </button> -->
+                <a class="nav-link dropdown-toggle nav-items" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  STUDENTS' कट्टा 
+                </a>
+                <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item" href="studentKattaTheme.html">Theme</a></li>
+                    <li><a class="dropdown-item" href="studentKattaEvents.html">Events</a></li>
+                    <li><a class="dropdown-item" href="studentKattaInteractivities.html">Activities</a></li>
+                </ul>
+              </li>
+            
+          <!-- </div> -->
+          <a class="nav-link nav-items" href="contact.html">Contact Us </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="philosophy lgScreen">
+    <div class="row philosophyRow">
+        <div class="col-lg-6">
+            <p class="philosophyHeading"><br>Learning Philosophy <br><br>at</p><br>
+            <p class="philosophyBrand"><b>Validus</b>EduTech</p>
+        </div>
+        
+        <div class="col-lg-6 philosophyCol">
+            <h3 class="philosophyNum">1</h3>
+            <h5 class="philosophyHead">Build Strong Fundamentals</h5>
+            <p class="philosophyContent">
+                <br>
+                We promote a learning philosophy that transcends superficial knowledge of the curriculum. 
+                Our main motto is to foster deep comprehension by encouraging students to dig deeper into the subject matter.
+                We go beyond rote memorization and formulaic problem-solving, empowering our students
+                to think critically and excel academically.</p>
+        </div>
+        
+    </div>
+    <div class="row philosophyRow">
+        <div class="col-lg-4 philosophyCol">
+            <h3 class="philosophyNum">2</h3>
+            <h5 class="philosophyHead">Apply, Iterate, Inculcate</h5>
+            <p class="philosophyContent">
+                <br>
+                At Validus EduTech, we foster a dynamic learning environment 
+                where academic concepts are seamlessly integrated with
+                real-world applications through engaging Student's KATTA
+                activities. Our unique approach empowers students to leverage
+                programming tools in creating visually compelling posters,
+                presentations, and interactive visuals, enabling them to 
+                acquire a comprehensive understanding of the multi-disciplinary \
+                nature of engineering."
+            </p>
+        </div>
+        <div class="col-lg-4 philosophyCol">
+            <h3 class="philosophyNum">3</h3>
+            <h5 class="philosophyHead">Programming as a TOOL</h5>
+            <p class="philosophyContent">
+                <br>
+                We view programming as an invaluable supplement to the 
+                learning process. We recognize the immense potential of 
+                programming skills as a versatile tool, which enhances the
+                educational experience for our students. By incorporating 
+                programming into our curriculum, we empower our students to 
+                leverage these skills effectively, expanding their capabilities and 
+                fostering a comprehensive understanding of the subject matter."
+            </p>
+        </div>       
+        <div class="col-lg-4 philosophyCol">
+            <h3 class="philosophyNum">4</h3>
+            <h5 class="philosophyHead">Evolve as a LIFE LONG LEARNER</h5>
+            <p class="philosophyContent">
+                Foster a culture of lifelong learning and cultivate a growth 
+                mindset by prioritizing skill development and staying abreast of 
+                emerging technologies. Our commitment lies in empowering 
+                students to continuously expand their knowledge and adapt to 
+                the ever-evolving landscape of technology. By promoting a
+                forward-thinking approach, we equip our students with the 
+                necessary tools and resources to stay ahead in their respective 
+                fields and thrive in an increasingly dynamic world.
+            </p>
+        </div>
+    </div>
+  </section>
+
+
+  <section class="learningPhilosophy smScreen">
+    <p class="philosophyHeading"><br>Learning Philosophy at</p>
+    <p class="philosophyBrand"><b>Validus</b>EduTech</p>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class=" philosophyCol">
+                <h3 class="philosophyNum">1</h3>
+                <h5 class="philosophyHead">Build Strong Fundamentals</h5>
+                <p class="philosophyContent">
+                    <br>
+                    We promote a learning philosophy that transcends superficial knowledge of the curriculum. 
+                    Our main motto is to foster deep comprehension by encouraging students to dig deeper into the subject matter.
+                    We go beyond rote memorization and formulaic problem-solving, empowering our students
+                    to think critically and excel academically.</p>
+            </div>
+            <br> <br> <br>
+          </div>
+          <div class="carousel-item">
+            <div class=" philosophyCol">
+                <h3 class="philosophyNum">2</h3>
+                <h5 class="philosophyHead">Apply, Iterate, Inculcate</h5>
+                <p class="philosophyContent">
+                    <br>
+                    At Validus EduTech, we foster a dynamic learning environment 
+                    where academic concepts are seamlessly integrated with
+                    real-world applications through engaging Student's KATTA
+                    activities. Our unique approach empowers students to leverage
+                    programming tools in creating visually compelling posters,
+                    presentations, and interactive visuals, enabling them to 
+                    acquire a comprehensive understanding of the multi-disciplinary \
+                    nature of engineering."
+                </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class=" philosophyCol">
+                <h3 class="philosophyNum">3</h3>
+                <h5 class="philosophyHead">Programming as a TOOL</h5>
+                <p class="philosophyContent">
+                    <br>
+                    We view programming as an invaluable supplement to the 
+                    learning process. We recognize the immense potential of 
+                    programming skills as a versatile tool, which enhances the
+                    educational experience for our students. By incorporating 
+                    programming into our curriculum, we empower our students to 
+                    leverage these skills effectively, expanding their capabilities and 
+                    fostering a comprehensive understanding of the subject matter."
+                </p>
+            </div> 
+          </div>
+          <div class="carousel-item">
+            <div class=" philosophyCol">
+                <h3 class="philosophyNum">4</h3>
+                <h5 class="philosophyHead">Evolve as a LIFE LONG LEARNER</h5>
+                <p class="philosophyContent">
+                    Foster a culture of lifelong learning and cultivate a growth 
+                    mindset by prioritizing skill development and staying abreast of 
+                    emerging technologies. Our commitment lies in empowering 
+                    students to continuously expand their knowledge and adapt to 
+                    the ever-evolving landscape of technology. By promoting a
+                    forward-thinking approach, we equip our students with the 
+                    necessary tools and resources to stay ahead in their respective 
+                    fields and thrive in an increasingly dynamic world.
+                </p>
+            </div>
+            <br> 
+          </div>
+        </div>
+        
+      </div>
+  </section>
+
+
+  <section class="showcase">
+    <div class="showcaseHeading">Transformative Programs</div>
+    <div class="row showcaseRow">
+        
+        <!-- <div class="col-lg-3 ">
+            <div class=" showcaseOrange">
+                <div class="  showcaseNum">
+                    <p>100</p>
+                </div>
+                <div class=" showcaseContent">
+                    katta gang
+                </div>
+            </div>
+        </div> -->
+        <div class="col-lg-3 showcaseCol">
+            <div class=" showcaseYellow">
+                <div class="  showcaseNum">
+                   <p>1000+</p> 
+                </div>
+                <div class=" showcaseContent">
+                    Cummulative Contact Hours
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-lg-3 showcaseCol">
+            <div class=" showcaseBlue">
+                <div class="  showcaseNum">
+                    <p>2</p>
+                </div>
+                <div class=" showcaseContent">
+                    Distinct Specializations
+                </div>
+            </div>
+        </div>
+       
+        
+        <div class="col-lg-6 showcaseCol">
+            <div class=" showcaseGreen">
+                <div class="  showcaseNum">
+                    <p>4 Units</p>
+                </div>
+                <div class=" showcaseContent">
+                   Foundation Series<br>
+                   3 months each
+                </div>
+                
+            </div>
+        </div>
+        
+       
+    </div>
+
+    <div class="row showcaseRow">
+      
+    </div> 
+   
+  </section>
+
+  
+
+
+  <section class="handsOnExperience lgScreen">
+         
+                <div class="row">
+                    <p class="handsOnExperienceHeading">Progressive Development</p><br><br>               
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 handsOnExperienceCol">
+                        <h5 class="handsOnExperienceHead">Profile Showcasing<br><br></h5>
+                <p class="handsOnExperienceContent">
+                    Validus EduTech prioritizes the 
+                    development of a strong profile for
+                    young undergraduate students. 
+                    From the early stages, we emphasize the
+                    importance of networking skills and guide
+                    students in building their portfolios on 
+                    professional platforms such as GitHub 
+                    and LinkedIn. Through our comprehensive
+                    guidance, students acquire the necessary 
+                    skills to effectively showcase their 
+                    accomplishments and connect with 
+                    industry professionals, empowering
+                    them to create a compelling professional
+                    presence from the outset.
+                </p>
+                
+                    </div>
+                    
+                    <!-- ---------------------------------- -->
+                    <div class="col-lg-3 handsOnExperienceCol">
+                        <h5 class="handsOnExperienceHead">B.Y.O.S.<br><br> <br></h5>
+                <p class="handsOnExperienceContent">
+                    Build your own schedule : 
+                    Time management and effective 
+                    planning are common challenges 
+                    faced by undergraduate students.We
+                    understand the importance of a well
+                    defined schedule in helping students
+                    achieve their targets.With our
+                    dedicated support and guidance, 
+                    we assist our mentees in mastering
+                    the art of time management,
+                    empowering them to reach their 
+                    goals with precision and efficiency. 
+
+                </p>
+                <div class="handsOnExperienceOrange">
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp
+                </div>
+                    </div>
+                    <!-- ---------------------------------- -->
+                    <div class="col-lg-3 handsOnExperienceCol">
+                        <h5 class="handsOnExperienceHead">Coding Bootcamps</h5>
+                        <br>
+                            <p class="handsOnExperienceContent">
+                                A specially curated concentrated 
+                                course that teaches essential 
+                                skills and provides real-world 
+                                training for students
+                                seeking jobs in computer IT fields.
+                                Bootcamps condense the time 
+                                to pursue a traditional college 
+                                degree .
+                            </p>
+                            <div class="handsOnExperienceOrange">
+                                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                          &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                          &nbsp
+                          &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              
+                            </div>
+                    </div>
+                
+               
+                    <!-- ---------------------------------- -->
+                    <div class="col-lg-3 handsOnExperienceCol">
+                        <h5 class="handsOnExperienceHead">In-class Learning</h5>
+                        <br>
+                <p class="handsOnExperienceContent">
+                    Our courses feature lectures
+                    using cases and hands-on 
+                    challenges for feedback
+                    from domain experts. It also includes
+                    a graded group project to
+                    enhance the immersive experience.
+                </p>
+                <div class="handsOnExperienceOrange">
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp 
+              &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                </div>
+                    </div>
+                    <!-- ---------------------------------- -->
+                </div>
+  </section>
+ 
+  <section class="progressiveDevelopment smScreen">
+    <p class="handsOnExperienceHeading">Progressive Development</p><br><br>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="progressiveDevelopmentRow" >
+          <h2 >
+            <button class=" progressiveDevelopmentBtn  accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneV" aria-expanded="false" aria-controls="flush-collapseOneV">
+                Profile Showcasing
+
+            </button>
+          </h2>
+          <div id="flush-collapseOneV" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body progressiveDevelopmentContent">
+                Validus EduTech prioritizes the development of a strong profile for young undergraduate students. From the early stages, we emphasize the importance of networking skills and guide students in building their portfolios on professional platforms such as GitHub and LinkedIn. Through our comprehensive guidance, students acquire the necessary skills to effectively showcase their accomplishments and connect with industry professionals, empowering them to create a compelling professional presence from the outset.
+            </div>
+          </div>
+        </div>
+        <div class="progressiveDevelopmentRow" >
+          <h2 >
+            <button class="progressiveDevelopmentBtn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoV" aria-expanded="false" aria-controls="flush-collapseTwoV">
+                B.Y.O.S.
+            </button>
+          </h2>
+          <div id="flush-collapseTwoV" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body progressiveDevelopmentContent">
+                Build your own schedule : Time management and effective planning are common challenges faced by undergraduate students.We understand the importance of a well defined schedule in helping students achieve their targets.With our dedicated support and guidance, we assist our mentees in mastering the art of time management, empowering them to reach their goals with precision and efficiency.
+            </div>
+          </div>
+        </div>
+        <div class="progressiveDevelopmentRow">
+          <h2 >
+            <button class="progressiveDevelopmentBtn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThreeV" aria-expanded="false" aria-controls="flush-collapseThreeV">
+                Coding Bootcamps
+            </button>
+          </h2>
+          <div id="flush-collapseThreeV" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body progressiveDevelopmentContent">A specially curated concentrated course that teaches essential skills and provides real-world training for students seeking jobs in computer IT fields. Bootcamps condense the time to pursue a traditional college degree .
+
+            </div>
+          </div>
+        </div>
+        <div class="progressiveDevelopmentRow">
+            <h2 >
+              <button class="progressiveDevelopmentBtn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourV" aria-expanded="false" aria-controls="flush-collapseFourV">
+                  In-class Learning
+              </button>
+            </h2>
+            <div id="flush-collapseFourV" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body progressiveDevelopmentContent">Our courses feature lectures using cases and hands-on challenges for feedback from domain experts. It also includes a graded group project to enhance the immersive experience.
+
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+  
+  
+  <section class="plan lgScreen" >
+    <p class="planHeading">Schedule</p>
+    <div class="row programRow" id="foundationSeries1">
+        <div class="row" >
+            <p class="planHead">
+                Foundation Series I 
+            </p>
+        </div>
+       
+        <div class="col-lg-12">
+            <div class="foundationSeries1">
+                <table class="foundationSeries1Table">
+                   
+                    <tr class="foundationSeries1Unit">
+                        <th class="foundationSeries1TH">Subjects</th>
+                        <th class="foundationSeries1TH">Unit I <br>May & June</th>
+                        <th class="foundationSeries1TH">Unit II <br>July & August</th>
+                        <th class="foundationSeries1TH">Unit III <br>September & October </th>
+                        <th class="foundationSeries1THEnd">Unit IV <br>November & December </th>
+                       
+                    </tr>
+                    <tr class=" foundationSeries1Month">
+                        <td class="foundationSeries1Td"> XI Physics</td>
+                        <td class="foundationSeries1Td">- &nbsp Units and measurements <br>-&nbsp  Mathematical methods<br>- &nbsp Motion in Plane<br>-&nbsp Laws of Motion</td>
+                        <td class="foundationSeries1Td">-&nbsp Gravitation <br>-&nbsp Mechanical Properties of Solids </td>
+                        <td class="foundationSeries1Td">-&nbsp Thermal Properties of Matter <br>-&nbsp Electrostatics<br>-&nbsp Electric Current Through Conductors<br>-&nbsp Magnetism</td>
+                        <td class="foundationSeries1TdEnd">-&nbsp Electromagnetic Waves and Communication System <br>-&nbsp Sound<br>-&nbsp Optics<br>-&nbsp Semiconductors</td>
+                       
+                    </tr>
+                    <tr class=" foundationSeries1MonthEnd">
+                        <td class="foundationSeries1Td"> XI <br>Math</td>
+                        <td class="foundationSeries1Td">-&nbsp Complex Numbers <br>-&nbsp Angle and its Measurement<br>-&nbsp Trigonometry - I<br>-&nbsp Trigonometry - II</td>
+                        <td class="foundationSeries1Td">-&nbsp Determinants and Matrices <br>-&nbsp Straight Line<br>-&nbsp Circle<br>-&nbsp Conic Sections </td>
+                        <td class="foundationSeries1Td">-&nbsp Sequences and Series <br>-&nbsp Permutations and Combination <br>-&nbsp Methods of Induction and Binomial Theorem<br>-&nbsp Sets and Relations</td>
+                        <td class=" foundationSeries1TdEnd">-&nbsp Functions <br>-&nbsp Limits<br>-&nbsp Continuity<br>-&nbsp Differentiation <br>-&nbsp Measures of Dispersion <br>-&nbsp Probability</td>
+                       
+                    </tr>
+                    
+                </table>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="row programRow" id="foundationSeries2">
+        <div class="row" >
+            <p class="planHead">
+                Foundation Series II 
+            </p>
+        </div>
+       
+        <div class="col-lg-12">
+            <div class="foundationSeries1">
+                <table class="foundationSeries1Table">
+                   
+                    <tr class="foundationSeries1Unit">
+                        <th class="foundationSeries1TH">Subjects</th>
+                        <th class="foundationSeries1TH">Unit I <br>April , May & June</th>
+                        <th class="foundationSeries1TH">Unit II <br>July , August & September</th>
+                        <th class="foundationSeries1TH">Unit III <br>October , November & December</th>
+                        <th class="foundationSeries1THEnd">Unit IV <br>January , February & March</th>
+                       
+                    </tr>
+                    <tr class=" foundationSeries1Month">
+                        <td class="foundationSeries1Td">XII <br>Physics</td> 
+                        <td class="foundationSeries1Td">- &nbsp Rotational Dynamics <br>-&nbsp  Mechanical Properties of Fluids<br>- &nbsp  Electrostatics<br>-&nbsp Current Electricity <br>-&nbsp Magnetic Fields due to Electric Current <br>-&nbsp Magnetic Materials </td>
+                        <td class="foundationSeries1Td">-&nbsp Electromagnetic induction  <br>-&nbsp AC Circuits <br>-&nbsp  Oscillations <br>-&nbsp Superposition of Waves <br>-&nbsp Wave Optics <br>-&nbsp Kinetic Theory of Gases and Radiation</td>
+                        <td class="foundationSeries1Td">-&nbsp Thermodynamics <br>-&nbsp Dual Nature of Radiation and Matter<br>-&nbsp Structure of Atoms and Nuclei<br>-&nbsp  Semiconductor Devices</td>
+                        <td class="foundationSeries1TdEnd">-&nbsp HSC Revision <br>-&nbsp Board Exam<br>-&nbsp CET Preparation</td>
+                       
+                    </tr>
+                    <tr class=" foundationSeries1MonthEnd">
+                        <td class="foundationSeries1Td">XII <br>Math</td>
+                        <td class="foundationSeries1Td">-&nbsp Differentiation <br>-&nbsp Applications of Derivatives<br>-&nbsp Trigonometric Functions</td>
+                        <td class="foundationSeries1Td">-&nbsp Indefinite Integration  <br>-&nbsp Definite Integration<br>-&nbsp Application of Definite Integration </td>
+                        <td class="foundationSeries1Td">-&nbsp Differential Equations  <br>-&nbsp Pair of Straight Lines <br>-&nbsp Vectors<br>-&nbsp Line and Plane</td>
+                        <td class=" foundationSeries1TdEnd">-&nbsp Probability Distributions <br>-&nbsp Binomial Distribution<br>-&nbsp Linear Programming <br>-&nbsp Mathematical Logic<br>-&nbsp Matrices </td>
+                       
+                    </tr>
+                    
+                </table>
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="row programRow" id="mainCourse">
+        <div class="row" >
+            <p class="planHead">
+                Main Course
+            </p>
+        </div>
+       
+        <div class="col-lg-12">
+            <div class="foundationSeries1">
+                <table class="foundationSeries1Table">
+                   
+                    <tr class="foundationSeries1Unit">
+                        <th class="foundationSeries1TH">Subjects</th>
+                        <th class="foundationSeries1TH">Unit I <br>WEEK #  &nbsp 1 , &nbsp 2 , &nbsp 3</th>
+                        <th class="foundationSeries1TH">Unit II <br>WEEK #  &nbsp 4 , &nbsp 5 , &nbsp 6</th>
+                        <th class="foundationSeries1TH">Unit III <br>WEEK #  &nbsp 7 , &nbsp 8 , &nbsp 9</th>
+                        <th class="foundationSeries1THEnd">Unit IV <br>WEEK #  &nbsp 10 , &nbsp 11 , &nbsp 12</th>
+                       
+                    </tr>
+                    <tr class=" foundationSeries1MonthEnd">
+                        <td class="foundationSeries1Td">M - I</td> 
+                        <td class="foundationSeries1Td">- &nbsp Matrices <br>-&nbsp  Complex Numbers  </td>
+                        <td class="foundationSeries1Td">-&nbsp Applications of Complex Numbers   <br>-&nbsp Infinite Series <br>-&nbsp  Differential Calculus I</td>
+                        <td class="foundationSeries1Td">-&nbsp Differential Calculus II <br>-&nbsp Expansions of Functions<br>-&nbsp Differential Calculus III</td>
+                        <td class="foundationSeries1TdEnd">-&nbsp Partial Differentiation & Applications  <br>-&nbsp Jacobian<br>-&nbsp Maxima & Minima </td>
+                       
+                    </tr>
+                    
+                    
+                </table>
+                
+            </div>
+        </div>
+    </div>
+   
+  </section>
+
+  
+  <section class="planSm smScreen">
+     <p class="planSmHeading">Scedule</p>
+     <div class="planSmFoundationSeries1 ">
+        <div class="row" id="foundationSeries1">
+            <p class="planSmHead">Foundation Series I</p>
+        
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class=" planSmBgBlue ">
+                      <h2 class="">
+                        <button class="accordion-button planSmBtnBlue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Unit I<br>
+                            August & September
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">XI Physics <br> 
+                            -   Units and measurements<br>
+                            -  Mathematical methods<br>
+                            -   Motion in Plane<br>
+                            -  Laws of Motion
+                            </div>
+                            <div class="accordion-body">XI Math <br> 
+                                -  Complex Numbers<br>
+                                -  Angle and its Measurement<br>
+                                -  Trigonometry - I<br>
+                                -  Trigonometry - II
+                                </div>
+                      </div>
+                    </div>
+
+                    <div class="  planSmBgGreen">
+                        <h2 class="">
+                          <button class="accordion-button planSmBtnGreen collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Unit II<br>
+                            October & November 
+                            
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">XI Physics <br> 
+                            -  Gravitation<br>
+                            -  Mechanical Properties of Solids
+                              </div>
+                              <div class="accordion-body">XI Math <br> 
+                                -  Determinants and Matrices<br>
+                                -  Straight Line<br>
+                                -  Circle<br>
+                                -  Conic Sections
+                                  </div>
+                        </div>
+                      </div>
+
+                        <div class=" planSmBgOrange">
+                            <h2 class="">
+                            <button class="accordion-button planSmBtnOrange collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Unit III<br>
+                                 December & January
+                               
+                            </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">XI Physics <br> 
+                                -  Thermal Properties of Matter<br>
+                                -  Electrostatics<br>
+                                -  Electric Current Through Conductors<br>
+                                -  Magnetism
+                                </div>
+                                <div class="accordion-body">XI Math <br> 
+                                    -  Sequences and Series<br>
+                                    -  Permutations and Combination<br>
+                                    -  Methods of Induction and Binomial Theorem<br>
+                                    -  Sets and Relations
+                                    </div>
+                            </div>
+                        </div>  
+                        
+                        <div class=" planSmBgYellow">
+                            <h2 class="">
+                            <button class="accordion-button planSmBtnYellow collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Unit IV<br>
+                                February & March
+                                
+                            </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">XI Physics <br> 
+                                -  Electromagnetic Waves and Communication System<br>
+                                -  Sound<br>
+                                -  Optics<br>
+                                -  Semiconductors
+                                </div>
+                                <div class="accordion-body">XI Math <br> 
+                                    -  Functions<br>
+                                    -  Limits<br>
+                                    -  Continuity<br>
+                                    -  Differentiation<br>
+                                    -  Measures of Dispersion<br>
+                                    -  Probability
+                                    </div>
+                            </div>
+                        </div>  
+
+                      
+
+                  </div>
+            
+
+        </div>
+
+     </div>
+
+     <div class="planSmFoundationSeries1 ">
+        <div class="row" id="foundationSeries2">
+            <p class="planSmHead">Foundation Series II</p>
+        
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class=" planSmBgBlue ">
+                      <h2 class="">
+                        <button class="accordion-button planSmBtnBlue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneII" aria-expanded="false" aria-controls="flush-collapseOneII">
+                            Unit I<br>
+                            April , May & June 
+                            
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOneII" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">XII Physics <br> 
+                            -   Rotational Dynamics <br>
+                            -  Mechanical Properties of Fluids<br>
+                            -   Electrostatics<br>
+                            -  Current Electricity<br>
+                            -  Magnetic Fields due to Electric Current<br>
+                            -  Magnetic Materials
+                            </div>
+                            <div class="accordion-body">XII Math <br> 
+                                -  Differentiation<br>
+                                -  Applications of Derivatives<br>
+                                -  Trigonometric Functions
+                                </div>
+                      </div>
+                    </div>
+
+                    <div class="  planSmBgGreen">
+                        <h2 class="">
+                          <button class="accordion-button planSmBtnGreen collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwoII">
+                            Unit II<br>
+                            July , August & September
+                            
+                           
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">XII Physics <br> 
+                            -  Electromagnetic induction<br>
+                            -  AC Circuits<br>
+                            -  Oscillations<br>
+                            -  Superposition of Waves<br>
+                            -  Wave Optics<br>
+                            -  Kinetic Theory of Gases and Radiation
+                              </div>
+                              <div class="accordion-body">XII Math <br> 
+                                -  Indefinite Integration<br>
+                                -  Definite Integration<br>
+                                -  Application of Definite Integration
+                                  </div>
+                        </div>
+                      </div>
+
+                        <div class=" planSmBgOrange">
+                            <h2 class="">
+                            <button class="accordion-button planSmBtnOrange collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThreeII">
+                                Unit III<br>
+                               October , November & December 
+                               
+                            </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">XI Physics <br> 
+                                -  Thermodynamics<br>
+                                -  Dual Nature of Radiation and Matter<br>
+                                -  Structure of Atoms and Nuclei<br>
+                                -  Semiconductor Devices
+                                </div>
+                                <div class="accordion-body">XII Math <br> 
+                                    -  Differential Equations<br>
+                                    -  Pair of Straight Lines<br>
+                                    -  Vectors<br>
+                                    -  Line and Plane
+                                    </div>
+                            </div>
+                        </div>  
+                        
+                        <div class=" planSmBgYellow">
+                            <h2 class="">
+                            <button class="accordion-button planSmBtnYellow collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourII" aria-expanded="false" aria-controls="flush-collapseFourII">
+                                Unit IV<br>
+                                 January , February & March
+                               
+                            </button>
+                            </h2>
+                            <div id="flush-collapseFourII" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">XII Physics <br> 
+                                -  HSC Revision<br>
+                                -  Board Exam<br>
+                                -  CET Preparation
+                                </div>
+                                <div class="accordion-body">XII Math <br> 
+                                    -  Probability Distributions<br>
+                                    -  Binomial Distribution<br>
+                                    -  Linear Programming<br>
+                                    -  Mathematical Logic<br>
+                                    -  Matrices
+
+                                    </div>
+                            </div>
+                        </div>  
+
+                      
+
+                  </div>
+            
+
+        </div>
+
+     </div>
+
+     <div class="planSmFoundationSeries1 ">
+        <div class="row" id="mainCourse">
+            <p class="planSmHead">Main Course</p>
+        
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class=" planSmBgBlue ">
+                      <h2 class="">
+                        <button class="accordion-button planSmBtnBlue collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneIII" aria-expanded="false" aria-controls="flush-collapseOneIII">
+                            Unit I<br>
+                            WEEK #  &nbsp 1 , &nbsp 2 , &nbsp 3  
+                            
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOneIII" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        
+                            <div class="accordion-body"> Math <br> 
+                                -   Matrices<br>
+                                -  Complex Numbers
+                                </div>
+                      </div>
+                    </div>
+
+                    <div class="  planSmBgGreen">
+                        <h2 class="">
+                          <button class="accordion-button planSmBtnGreen collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoIII" aria-expanded="false" aria-controls="flush-collapseTwoIII">
+                            Unit II<br>
+                            WEEK #  &nbsp 4 , &nbsp 5 , &nbsp 6
+                           
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwoIII" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                          
+                              <div class="accordion-body"> Math <br> 
+                                -  Applications of Complex Numbers<br>
+                                -  Infinite Series<br>
+                                -  Differential Calculus I
+                                  </div>
+                        </div>
+                      </div>
+
+                        <div class=" planSmBgOrange">
+                            <h2 class="">
+                            <button class="accordion-button planSmBtnOrange collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThreeIII" aria-expanded="false" aria-controls="flush-collapseThreeIII">
+                                Unit III<br>
+                                WEEK #  &nbsp 7 , &nbsp 8 , &nbsp 9
+                               
+                            </button>
+                            </h2>
+                            <div id="flush-collapseThreeIII" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            
+                                <div class="accordion-body">Math <br> 
+                                    -  Differential Calculus II<br>
+                                    -  Expansions of Functions<br>
+                                    -  Differential Calculus III
+                                    </div>
+                            </div>
+                        </div>  
+                        
+                        <div class=" planSmBgYellow">
+                            <h2 class="">
+                            <button class="accordion-button planSmBtnYellow collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourIII" aria-expanded="false" aria-controls="flush-collapseFourIII">
+                                Unit IV<br>
+                                WEEK #  &nbsp 10 , &nbsp 11 , &nbsp 12
+                               
+                            </button>
+                            </h2>
+                            <div id="flush-collapseFourIII" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            
+                                <div class="accordion-body"> Math <br> 
+                                    -  Partial Differentiation & Applications<br>
+                                    -  Jacobian<br>
+                                    -  Maxima & Minima
+
+                                    </div>
+                            </div>
+                        </div>  
+
+                      
+
+                  </div>
+            
+
+        </div>
+
+     </div>
+
+
+
+  </section>
+
+<section class="footer">
+  <div class="row">
+    <div class="col-lg-4">
+      <p class="brandFooter"><b>Validus</b>EduTech<br>
+       <b class="tagLineFooter">आजीवनं शिक्षणम्</b>
+      </p> <br>
+      
+      
+    </div>
+    <div class="col-lg-4">
+        <p class="brand">Co-Founders</p>
+        Anand Khandekar <br>
+        Suhani Kolhatkar 
+      </div>
+      <div class="col-lg-4">
+        <p class="brand">Important Links</p>
+        <a href=".." class="privacyPolicy">Privacy Policy</a><br>
+        <p>Email : 
+        <a href = "mailto: validus.edutech@gmail.com">validus.edutech@gmail.com</a></p>
+        
+      </div>
+  </div>
+</section>
+  
+  
+  <!-- jquery link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="index.js"></script>
+  
+</body>
+
+</html>

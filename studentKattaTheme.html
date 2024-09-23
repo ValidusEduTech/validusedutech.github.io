@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validus EduTech </title>
+  <!-- link for the bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--link for bootstrap version 5.3-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!--link for css-->
+  <link rel="stylesheet" href="/styles/styles.css">
+  <!--link for fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+<!-- link for gojs -->
+<script src="https://unpkg.com/gojs/release/go-debug.js"></script>
+</head>
+<body>
+    
+    <!-- link for js -->
+   <script src="script.js"></script>
+   
+    <!--link for js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+  crossorigin="anonymous"></script>
+  
+     <!-- navbars -->
+
+<nav class=" navbar sticky-top navbar-expand-lg  justify-content-center " data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        
+        <b>Validus</b>EduTech
+        <p class="tagLine"><b>आजीवनं शिक्षणम्</b></p>
+      </a>
+    </div>
+    <div class="container-fluid justidfy-content-centre">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link nav-items " href="index.html">Home</a>
+                      <a class="nav-link nav-items" href="about.html">About</a>
+            <a class="nav-link nav-items" href="programs.html">Programs</a>
+            <a class="nav-link nav-items" href="admissions.html">Admissions</a>
+          <!-- <div class="collapse navbar-collapse" id="navbarNavDarkDropdown"> -->
+            
+              <li class="nav-items dropdown">
+                <!-- <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown  " aria-expanded="false">
+                  
+                </button> -->
+                <a class="nav-link dropdown-toggle nav-items" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  STUDENTS' कट्टा 
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="studentKattaTheme.html">Theme</a></li>
+                  <li><a class="dropdown-item" href="studentKattaEvents.html">Events</a></li>
+                  <li><a class="dropdown-item" href="studentKattaInteractivities.html">Activities</a></li>
+                </ul>
+              </li>
+            
+          <!-- </div> -->
+          <a class="nav-link nav-items" href="contact.html">Contact Us </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+      
+<section class="kattaTheme lgScreen">
+  <div class="kattaThemeBgTrans">
+    <div class="row">
+      
+      <div class="col-lg-7 kattaThemeCol">
+        <div>
+          <div class="kattaThemeHead">
+            <p>
+              Why
+            </p>
+          </div>
+          <div class="kattaThemeContent">
+            <p>
+              In today's time if you ask a teenager to introduce him/her , he / she often starts introducing
+               themselves from their curricular achievements only. For future your curricular achievements will
+                surely matter but what will also matter is your other skill sets  . We at STUDENTS' कट्टा encourage 
+                our members to embrace their other skill sets as well ! It is to see yourself as a dynamic
+                 personality ! We define dynamic as a MULTIDIMENSIONAL personality . It’s only about personality
+                  development but to know about your own पैलू !
+  
+  
+            </p>
+          </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 ">
+        
+      </div>
+      <div class="col-lg-7 kattaThemeCol">
+          <div>
+            <div class="kattaThemeHead">
+              <p>
+                What
+              </p>
+            </div>
+            <div class="kattaThemeContent">
+              <p>
+                It is a vibrant platform for the Teenagers who are  on the verge of becoming an adult for discovering 
+                their other aspects of personality . We welcome students  from different domain into our STUDENTS' कट्टा's activities 
+                . We at STUDENTS' कट्टा consider studies as an extracurricular and your skills as curricular ! We build such community
+                for students to interact on the basis of their skill set and not only studies . We emphasize on peer learning . 
+                Our motto is to develop a community which will have like minded people which surely provide an appropriate growth atmosphere.
+  
+              </p>
+            </div>
+          </div>
+      </div>
+      
+    </div>
+  </div>
+    
+  
+    
+    
+  
+  
+  <!-- canvas -->
+  <canvas id="canvas1"></canvas>
+  <script src="/particles1/script.js"></script>
+</section>
+
+
+<section class="kattaThemeContinue lgScreen">
+  <div class="row">
+    <div class="col-lg-12">
+      <div>
+        <div class="kattaThemeHeadContinue">
+          <p>
+            How
+          </p>
+        </div>
+        <div class="kattaThemeContentContinue">
+          <p>
+            It is all about to Communicate...
+            <br>
+            You are one click away.... <a href="studentKattaEvents.html#join" class="aHow">Be a member</a>
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="images/presentations.svg" alt="">
+              </div>
+              
+                <div class="col-lg-3">
+                  <p class="howContent">Presentations</p>
+                  <p class="howContentVisit">To know how <br>visit :<a href="studentKattaInteractivities.html#presentation" class="aHow">Info</a> </p>
+                </div>
+                <div class="col-lg-3">
+                  <div class="howTable">
+                    <p>Experience</p>
+                    <form  action="mailto:validus.edutech@gmail.com" method="post" enctype=”multipart/form-data” >
+                        
+                            <table >
+                                <tr class="howTr">
+                                   <td><input type="text" name="Your Name " placeholder="Enter Your Name" class="howInput"></td> 
+                                   
+                                </tr>
+                                <tr class="howTr">
+                                  <td><input type="text" name="Your choosen topic " placeholder="Write Your Presentation's topic" class="howInput"></td> 
+                                  
+                               </tr>
+                                <tr class="howTr">
+                                    
+                                    <td><input type="email" name="Your Email" placeholder="Enter Your Email" class="howInput"></td>
+                                    
+                                </tr>
+                                
+                            </table>
+                            
+                                <button class="howButton howInput">Submit</button>
+                            
+                        
+                        
+                        
+                    </form>
+                </div>
+                </div>
+              
+              
+            </div>
+
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="howTable">
+                  <p>Experience</p>
+                  <form  action="mailto:validus.edutech@gmail.com" method="post" enctype=”multipart/form-data” >
+                      
+                          <table >
+                              <tr class="howTr">
+                                 <td><input type="text" name="Your Name " placeholder="Enter Your Name" class="howInput"></td> 
+                                 
+                              </tr>
+                              <tr class="howTr">
+                                <td><input type="text" name="Your appt topic " placeholder="Suggest appt topic " class="howInput"></td> 
+                                
+                             </tr>
+                              <tr class="howTr">
+                                  
+                                  <td><input type="email" name="Your Email" placeholder="Enter Your Email" class="howInput"></td>
+                                  
+                              </tr>
+                              
+                          </table>
+                          
+                              <button class="howButton howInput">Submit</button>
+                          
+                      
+                      
+                      
+                  </form>
+              </div>
+              </div>
+              <div class="col-lg-3">
+                <p class="howContent">गप्पागोष्टी</p>
+                <p class="howContentVisit">To know how <br>visit :<a href="studentKattaInteractivities.html#gd" class="aHow">Info</a> </p>
+              </div>
+              
+              <div class="col-lg-6">
+                <img src="images/gappa.svg" alt="">
+              </div>
+              
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="images/kattaStories.svg" alt="">
+              </div>
+              <div class="col-lg-3">
+                <p class="howContent">कट्टा Story</p>
+                <p class="howContentVisit">To know how <br>visit :<a href="studentKattaInteractivities.html#kattaStory" class="aHow">Info</a> </p>
+              </div>
+              <div class="col-lg-3">
+                <div class="howTable">
+                  <p>Experience</p>
+                  <form  action="mailto:validus.edutech@gmail.com" method="post" enctype=”multipart/form-data” >
+                      
+                          <table >
+                              <tr class="howTr">
+                                 <td><input type="text" name="Your Name " placeholder="Enter Your Name" class="howInput"></td> 
+                                 
+                              </tr>
+                              <tr class="howTr">
+                                <td><input type="text" name="Your story " placeholder="Tell us your story " class="howInput"></td> 
+                                
+                             </tr>
+                              <tr class="howTr">
+                                  
+                                  <td><input type="email" name="Your Email" placeholder="Enter Your Email" class="howInput"></td>
+                                  
+                              </tr>
+                              
+                          </table>
+                          
+                              <button class="howButton howInput">Submit</button>
+                          
+                      
+                      
+                      
+                  </form>
+              </div>
+              </div>
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="smScreen kattaTheme">
+  <div class="kattaThemeBgTrans">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p class="kattaThemeHead">Why</p>
+          <p class="kattaThemeContent">
+            In today's time if you ask a teenager to introduce him/her , he / she often starts introducing
+                 themselves from their curricular achievements only. For future your curricular achievements will
+                  surely matter but what will also matter is your other skill sets  . We at STUDENTS' कट्टा encourage 
+                  our members to embrace their other skill sets as well ! It is to see yourself as a dynamic
+                   personality ! We define dynamic as a MULTIDIMENSIONAL personality . It’s only about personality
+                    development but to know about your own पैलू !
+    
+          </p>
+        </div>
+        <div class="carousel-item">
+          <p class="kattaThemeHead">What</p>
+          <p class="kattaThemeContent">
+            It is a vibrant platform for the Teenagers who are  on the verge of becoming an adult for discovering 
+                  their other aspects of personality . We welcome students  from different domain into our STUDENTS' कट्टा's activities 
+                  . We at STUDENTS' कट्टा consider studies as an extracurricular and your skills as curricular ! We build such community
+                  for students to interact on the basis of their skill set and not only studies . We emphasize on peer learning . 
+                  Our motto is to develop a community which will have like minded people which surely provide an appropriate growth atmosphere.
+    
+          </p> 
+        </div>
+        <div class="carousel-item">
+          <p class="kattaThemeHead">How</p>
+          <p class="kattaThemeContent">
+            You are one click away.... <a href="studentKattaEvents.html#join" class="aHow">Be a member</a>
+            <div class="row ">
+              <div class="howRow">
+                <div class="col-lg-12 kattaThemeContent">
+                  Presentations
+                </div>
+                  
+                    <div class="col-lg-3">
+                      <p class="howContentVisit kattaThemeContent">To know how <br>visit :<a href="studentKattaInteractivities.html#presentation" class="aHow">Info</a> </p>
+                    </div>
+              </div>
+              
+             </div>
+  
+             <div class="row ">
+              <div class="howRow">
+                <div class="col-lg-12 kattaThemeContent">
+                  गप्पागोष्टी
+                </div>
+                  
+                    <div class="col-lg-3">
+                      <p class="howContentVisit kattaThemeContent">To know how <br>visit :<a href="studentKattaInteractivities.html#gd" class="aHow">Info</a> </p>
+                    </div>
+              </div>
+             </div>
+  
+  
+             <div class="row ">
+              <div class="howRow">
+                <div class="col-lg-12 kattaThemeContent">
+                  कट्टा Story
+                </div>
+                  
+                    <div class="col-lg-3">
+                      <p class="howContentVisit kattaThemeContent">To know how <br>visit :<a href="studentKattaInteractivities.html#kattaStory" class="aHow">Info</a> </p>
+                    </div>
+              </div>
+             </div>
+  
+          </p> 
+        </div>
+    </div>
+    </div>
+    
+  </div>
+  <!-- canvas
+  <canvas id="canvas1"></canvas>
+  <script src="/particles1/script.js"></script> -->
+</section>
+
+
+<section class="edges">
+  
+  <div class="row kattaEdgesRow kattaEdgesHeading">Edges</div>
+    <div class="row kattaEdgesRow">
+      <div class="col-lg-6 kattaEdgesCol"></div>
+      <div class="col-lg-6 kattaEdgesCol">
+        <p class="kattaEdgesHead">
+          Members with different domains
+        </p>
+        <p class="kattaEdgesContent">
+          Meeting students from different domains will help oneself find application of his/her own skill set.
+          It also helps to develop different skills ,which helps in your own understanding of your domain .
+          You will start knowing the DYNAMICS of the world and where will you actually fit ! 
+
+        </p>
+      </div>
+    </div>
+    <div class="row kattaEdgesRow">
+      <div class="col-lg-6 kattaEdgesCol">
+        <p class="kattaEdgesHead">
+          Building meaningful connections 
+        </p>
+        <p class="kattaEdgesContent">
+          Connections with people from different domains help in the long run . Some or the other member always need 
+          help /  guidance from other domain's  members to connect the dots between two different domains . This 
+          will help to get your problem solved . Having connections with like minded people helps you grow . 
+          Someone has said ; You will be defined by the people with whom you interact !
+
+        </p>
+      </div>
+      <div class="col-lg-6 kattaEdgesCol"></div>
+    </div>
+</section>
+     
+  
+
+<section class="footer">
+  <div class="row">
+    <div class="col-lg-4">
+      <p class="brandFooter"><b>Validus</b>EduTech<br>
+       <b class="tagLineFooter">आजीवनं शिक्षणम्</b>
+      </p> <br>
+      
+      
+    </div>
+    <div class="col-lg-4">
+      <p class="brand">Co-Founders</p>
+      Anand Khandekar <br>
+      Suhani Kolhatkar 
+    </div>
+    <div class="col-lg-4">
+      <p class="brand">Important Links</p>
+      <a href=".." class="privacyPolicy">Privacy Policy</a><br>
+      <p>Email : 
+      <a href = "mailto: validus.edutech@gmail.com">validus.edutech@gmail.com</a></p>
+      
+    </div>
+  </div>
+</section>
+  
+  
+  <!-- jquery link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="index.js"></script>
+  
+</body>
+
+</html>
